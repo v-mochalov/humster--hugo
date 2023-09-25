@@ -1177,6 +1177,7 @@ h3 {
       margin-bottom: 30px; } }
 .blog__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
   @media only screen and (max-width: 767px) {
     .blog__wrapper {
