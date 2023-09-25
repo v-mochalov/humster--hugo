@@ -1,0 +1,17 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Homepage"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS"]
+
+[permalinks]
+  blog = ':title/'
+
+[imaging]
+# See https://github.com/disintegration/imaging
+  resampleFilter = "Lanczos"
+  quality = 100

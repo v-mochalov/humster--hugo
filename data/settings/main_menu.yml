@@ -1,0 +1,11 @@
+nav_items:
+  - label: About Us
+    path: "/#about"
+  - label: Team
+    path: "/#team"
+  - label: Partners & CLIENTS
+    path: "/#partners"
+  - label: BLOG
+    path: "/blog"
+header_cta_button_text: Contact Us
+header_cta_button_url: "/#contact"

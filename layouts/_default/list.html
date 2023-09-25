@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+
+<div class="mw7 center">
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+    <section class="releases">
+    <div class="container">
+      <div class="releases__upline">meta PR</div>
+      <h1 class="releases__title">
+         Blog
+      </h1>
+<!--      <form>-->
+<!--         <p><input type="search" name="q" placeholder="Search">          -->
+<!--      </form>   -->
+      <div class="blog__wrapper">
+        {{ range (.Paginator 6).Pages.ByPublishDate.Reverse }}
+
+              {{ .Render "li"}}
+
+        {{ end }}
+
+      </div>
+    </div>
+  </section>
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+{{end}}

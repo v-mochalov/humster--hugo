@@ -1,0 +1,253 @@
+.video {
+  background: url("/img/videobg.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 202px;
+  padding-bottom: 185px;
+  position: relative;
+
+  @include xxl-d {
+    padding-top: 174px;
+  }
+
+  @include xl-d {
+    padding-top: 120px;
+  }
+
+  &__upline {
+    position: absolute;
+    width: 100vw;
+    height: 159px;
+    left: 0;
+    top: 0;
+
+    img {
+      width: 100vw;
+      height: 120px;
+    }
+  }
+
+  &__downline {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+
+    img {
+      height: 120px;
+      width: 100vw;
+    }
+  }
+
+  //content
+  &__wrapper {
+    position: relative;
+
+    @include lg-d {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__main {
+    width: 100%;
+
+    @include lg-d {
+      margin-top: 0px;
+    }
+
+    @include md-d {
+      margin-top: -40px;
+    }
+  }
+
+  &__text {
+    max-width: 657px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    @include xxl-d {
+      font-size: 16px;
+      max-width: 614px;
+      height: 384px;
+    }
+
+    @include xl-d {
+      font-size: 14px;
+      max-width: 550px;
+    }
+
+    @include lg-d {
+      max-width: 100%;
+      line-height: 24px;
+    }
+  }
+
+  &__paragraph {
+    @include lg-d {
+      margin-bottom: 20px;
+    }
+
+    @include md-d {
+      margin-bottom: 12px;
+    }
+  }
+
+  &__arrow {
+    margin-top: 62px;
+
+    @include xxl-d {
+      svg {
+        width: 554px;
+      }
+
+    }
+
+    @include xxl-d {
+      svg {
+        width: 546px;
+      }
+    }
+
+    @include lg-d {
+      position: absolute;
+      left: -36px;
+      top: 164px;
+
+      svg {
+        width: 396px;
+        transform: rotate(90deg);
+      }
+    }
+
+    @include md-d {
+      display: none;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    width: 498px;
+    height: 703px;
+    background: #000;
+    z-index: 2;
+    right: 0;
+    top: -190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include xxl-d {
+      top: -174px;
+    }
+
+    @include xl-d {
+      width: 389px;
+      height: 550px;
+      top: -92px;
+    }
+
+    @include lg-d {
+      position: relative;
+      align-self: flex-end;
+      top: -110px;
+    }
+
+    @include md-d {
+      width: 382px;
+      height: 540px;
+    }
+  }
+
+  &__video {
+
+    #myVideo {
+      width: 498px;
+      height: 703px;
+      object-fit: cover;
+      z-index: -100;
+
+      @include xl-d {
+        width: 389px;
+
+        height: 550px;
+      }
+
+      @include md-d {
+        height: 540px;
+        width: 382px;
+
+      }
+    }
+  }
+
+  &__scotch {
+    position: absolute;
+    right: -73px;
+    top: -96px;
+  }
+
+  &__circle {
+    position: absolute;
+    right: -75px;
+    bottom: -75px;
+    width: 150px;
+    height: 150px;
+    transform: translateY(46%);
+    animation: 25s linear 0s normal none infinite running rotate;
+    -webkit-animation: 25s linear 0s normal none infinite running rotate;
+
+    @include xxl-d {
+      width: 110px;
+      height: 110px;
+      right: -55px;
+      bottom: -55px;
+    }
+
+    @include xl-d {
+      width: 100px;
+      height: 100px;
+      right: -50px;
+      bottom: -50px;
+    }
+
+    @include lg-d {
+      width: 70px;
+      height: 70px;
+      right: -35px;
+      bottom: -35px;
+    }
+
+    @include md-d {
+      right: 350px;
+      transform: translate(50%, 50%);
+    }
+  }
+
+  &__img {
+    margin-top: 130px;
+
+    @include xxl-d {
+      margin-top: 140px;
+    }
+
+    @include xl-d {
+      margin-top: 57px;
+    }
+
+    @include md-d {
+      margin-top: 160px;
+    }
+  }
+}

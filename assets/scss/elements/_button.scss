@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s linear;
+
+  &--intro {
+    width: 322px;
+    height: 62px;
+    background: #0D2DFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  &--form {
+    width: 322px;
+    height: 62px;
+    border: 3px solid #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    transition: 0.3s linear;
+
+    background: transparent;
+    &:hover{
+      background: #000;
+      color: $accent;
+      transition: 0.3s linear;
+
+    }
+  }
+}

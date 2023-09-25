@@ -1,0 +1,132 @@
+.intro {
+  background: url("/img/introbg.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 231px;
+  padding-bottom: 239px;
+  overflow: hidden;
+  @include xxl-d{
+    padding-top: 184px;
+    padding-bottom: 240px;
+  }
+  @include xl-d{
+    padding-bottom: 250px;
+  }
+  @include md-d{
+    padding-top: 144px;
+    padding-bottom: 586px;
+  }
+  &__wrapper{
+    position: relative;
+  }
+  &__title {
+    span {
+      text-transform: uppercase;
+      color: transparent;
+      -webkit-text-stroke: 1px $accent;
+      opacity: 1;
+      
+
+    }
+  }
+  &__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: $whiteColor;
+    margin-top: 40px;   
+    @include xxl-d{
+      margin-top: 32px;
+    }
+    @include lg-d{
+      font-size: 17px;
+      line-height: 150%;
+    }
+    @include md-d{
+      margin-top: 24px;
+      font-size: 16px;
+    }
+  }
+  &__btn{
+    margin-top: 70.5px;
+   
+    @include xxl-d{
+      margin-top: 49px;
+    }
+    @include lg-d{
+      margin-top: 40px;
+    }
+  }
+  &__right{
+    @include md-d{
+      position: relative;
+    }
+  }
+  &__img{
+    position: absolute;
+    z-index: 2;
+    right: -98px;
+    bottom: -260px;
+    width: 593px;
+    @include xxl-d{
+      width: 502px;
+      right: -51px;
+      bottom: -241px;
+    }
+    @include xl-d{
+      right: -151px;
+      bottom: -205px;
+    }
+    @include lg-d{
+      width: 387px;
+    }
+    @include md-d{
+      right: 0;
+      bottom: -600px;
+    }
+  }
+  &__circle{
+    position: absolute;
+    right: -159px;
+    bottom: -355px;
+    width: 751px;
+    animation: 25s linear 0s normal none infinite running rotate;
+    -webkit-animation: 25s linear 0s normal none infinite running rotate;
+    
+    @include xxl-d{
+      width: 636px;
+      right: -101px;
+      bottom: -293px;
+    }
+    @include xl-d{
+      right: -226px;
+      bottom: -293px;
+    }
+    @include lg-d{
+      width: 490px;
+    }
+    @include md-d{
+      width: 430px;
+      right: -24px;
+      bottom: -616px;
+    }
+  }  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

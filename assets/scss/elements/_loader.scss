@@ -1,0 +1,28 @@
+.loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 9996;
+    display: flex;
+    &__title{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9997;
+        
+    }
+    &__item{
+        flex: 1 1 auto;
+        z-index: 9997;
+        background: $accent;
+        &--1{
+        }
+    }
+    @include md-d{
+        display: none;
+    }
+}

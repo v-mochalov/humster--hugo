@@ -1,0 +1,175 @@
+.footer {
+    padding-top: 103px;
+    padding-bottom: 23px;
+    background-image: url("/img/footbg.png");
+    background-size: contain;
+    
+    background-color: #000;
+    
+
+    @include xl-d {
+        padding-top: 63px;
+    }
+
+    &__upline {
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+    }
+
+    &__contain {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @include xl-d {
+            flex-direction: column;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        align-items: center;
+
+        img {
+            transform: scale(1);
+            transition: 0.3s linear;
+            width: 24px;
+        }
+
+        &:hover {
+            transition: 0.3s linear;
+
+            img {
+                transition: 0.3s linear;
+                transform: scale(1.1);
+            }
+        }
+
+        svg {
+            margin-right: 8px;
+        }
+
+        @include xl-d {
+            margin-top: 24px;
+        }
+
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.7;
+            transition: 0.3s linear;
+            margin-left: 8px;
+
+            @include xxl-d {
+                font-size: 12px;
+            }
+
+            &:hover {
+                color: $accent;
+                transition: 0.3s linear;
+                opacity: 1;
+            }
+        }
+    }
+
+    &__visible {
+        display: none;
+
+        @include xl-d {
+            display: block;
+        }
+        @include md-d{
+            display: none;
+        }
+    }
+
+    &__img {
+        padding-top: 100px;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        @include xxl-d {
+            height: 212px;
+        }
+        @include xl-d {
+            height: 178px;
+            // margin-top: 83px;
+        }
+        @include lg-d{
+            height: 133px;
+        }
+        @include md-d {
+            height: 71px;
+            // margin-top: 80px;
+        }
+    }
+
+    &__logo {
+        @include xl-d {
+            display: none;
+        }
+    }
+
+    &__downline {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+        @include xxl-d {
+            margin-top: 102px;
+        }
+
+        @include xl-d {
+            margin-top: 83px;
+        }
+
+        @include lg-d {
+            margin-top: 63px;
+        }
+
+        @include md-d {
+            margin-top: 100px;
+        }
+
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            opacity: 0.7;
+            margin-top: 28px;
+            transition: 0.3s linear;
+
+            &:hover {
+                transition: 0.3s linear;
+                color: $accent;
+            }
+            @include md-d{
+                width: 100%;
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &__remark {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        margin-top: 28px;
+
+        @include md-d {
+            display: none;
+        }
+    }
+}

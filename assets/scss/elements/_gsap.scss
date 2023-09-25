@@ -1,0 +1,65 @@
+.gsap{
+    
+    &__done{
+        opacity: 0; 
+    }
+    &__video{
+        opacity: 0;
+        transform: translate(-300px, 0);
+        transition: 0.1s linear;
+    }
+    &__video-img{
+        opacity: 0;
+        transform: scale(0);
+
+    }
+    &__arrow{
+        opacity: 0;
+        transform: translate(-300px, 0);
+        transition: 0.1s linear;
+    }
+    &__service{
+        opacity: 0;
+        transform: scale(0);
+    }
+    &__accordeon{
+        opacity: 0;
+    }
+    &__mark{
+        transform: translate(0, 0);
+    }
+    &__slider{
+        opacity: 0;
+        transform: translate(-300px, 0);
+    }
+    &__slider-right{
+        opacity: 0;
+        transform: translate(800px, 0);
+    }
+    &__blog{
+        opacity: 0;
+        transform: scale(0);
+    }
+    &__blogers{
+        opacity: 0;
+        transform: scale(0);
+    }
+    &__blogers-btn{
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+    &__form{
+        opacity: 0;
+        transform: scale(0);
+    }
+    &__footer{
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+.gsap__opacity{
+    transform: translate(200px, 0);
+    opacity: 0;
+}

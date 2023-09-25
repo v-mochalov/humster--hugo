@@ -1,0 +1,14 @@
+<div class="blog__box">
+	<div class="blog__img">
+		<img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}">
+	</div>
+	<div class="blog__content">
+		<div class="blog__upline">{{ .Title }}</div>
+		<div class="blog__downline">
+			<div class="blog__data"> {{ .PublishDate.Format "January 2, 2006" }} </div>
+			<div class="blog__read">
+				<a href="{{ .Permalink }}">Read more</a>
+			</div>
+		</div>
+	</div>
+</div>

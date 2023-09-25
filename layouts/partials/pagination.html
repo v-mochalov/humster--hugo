@@ -1,0 +1,67 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<section class="c-pagination">
+    <ul class="c-pagination__list">
+        <li class="c-pagination__item" style="{{ if not $pag.HasPrev }}display: none;{{ end }}">
+            <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous" rel="prev"><svg width="7px" height="14px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                <title>arrow_back_ios</title>
+                <desc>Created with Sketch.</desc>
+                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Rounded" transform="translate(-548.000000, -3434.000000)">
+                        <g id="Navigation" transform="translate(100.000000, 3378.000000)">
+                            <g id="-Round-/-Navigation-/-arrow_back_ios" transform="translate(442.000000, 54.000000)">
+                                <g>
+                                    <polygon id="Path" opacity="0.87" points="0 0 24 0 24 24 0 24"></polygon>
+                                    <path d="M16.62,2.99 C16.13,2.5 15.34,2.5 14.85,2.99 L6.54,11.3 C6.15,11.69 6.15,12.32 6.54,12.71 L14.85,21.02 C15.34,21.51 16.13,21.51 16.62,21.02 C17.11,20.53 17.11,19.74 16.62,19.25 L9.38,12 L16.63,4.75 C17.11,4.27 17.11,3.47 16.62,2.99 Z" id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <use xlink:href="#ic-arrow"></use>
+            </svg></a>
+        </li>
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ range $pag.Pagers }}
+        {{ $right := sub .TotalPages .PageNumber }}
+        {{ $showNumber := or (le .PageNumber 1) (eq $right 0) }}
+        {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2)))  }}
+        {{ if $showNumber }}
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
+        {{ else }}
+        {{ $.Scratch.Set "__paginator.shouldEllipse" (not ($.Scratch.Get "__paginator.ellipsed") ) }}
+        {{ $.Scratch.Set "__paginator.ellipsed" true }}
+        {{ end }}
+        {{ if $showNumber }}
+        <li class="c-pagination__item {{ if eq . $pag }}c-pagination__item--active{{ end }}">
+            <a class="c-pagination__link {{ if eq . $pag }}current{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+        </li>
+        {{ else if ($.Scratch.Get "__paginator.shouldEllipse") }}
+        <li class="c-pagination__item is-disabled">&hellip;</li>
+        {{ end }}
+        {{ end }}
+        <li class="c-pagination__item" style="{{ if not $pag.HasNext }}display: none;{{ end }}">
+            <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next" rel="next"><svg class="right_arrow" width="7px" height="14px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                <title>arrow_back_ios</title>
+                <desc>Created with Sketch.</desc>
+                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Rounded" transform="translate(-548.000000, -3434.000000)">
+                        <g id="Navigation" transform="translate(100.000000, 3378.000000)">
+                            <g id="-Round-/-Navigation-/-arrow_back_ios" transform="translate(442.000000, 54.000000)">
+                                <g>
+                                    <polygon id="Path" opacity="0.87" points="0 0 24 0 24 24 0 24"></polygon>
+                                    <path d="M16.62,2.99 C16.13,2.5 15.34,2.5 14.85,2.99 L6.54,11.3 C6.15,11.69 6.15,12.32 6.54,12.71 L14.85,21.02 C15.34,21.51 16.13,21.51 16.62,21.02 C17.11,20.53 17.11,19.74 16.62,19.25 L9.38,12 L16.63,4.75 C17.11,4.27 17.11,3.47 16.62,2.99 Z" id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <use xlink:href="#ic-arrow"></use>
+            </svg></a>
+        </li>
+    </ul>
+</section>
+{{ end }}

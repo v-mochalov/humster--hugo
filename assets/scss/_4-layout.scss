@@ -1,0 +1,16 @@
+.container {
+  width: 1296px;
+  margin: 0 auto;
+  @include xxl-d{
+    width: 1140px;
+  }
+  @include xl-d{
+    width: 960px;
+  }
+  @include lg-d{
+    width: 720px;
+  }
+  @include md-d{
+    width: 382px;
+  }
+}

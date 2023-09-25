@@ -1,0 +1,514 @@
+.slider {
+    background: url("/img/videobg.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 13px;
+    padding-bottom: 207px;
+    @include md-d{ padding-bottom: 275px;}
+    &__markdown {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+        white-space: nowrap;
+        overflow-x: hidden;
+        border-bottom: 2px solid #ffffff7a;
+        border-top: 2px solid #ffffff7a;
+        padding-bottom: 14px;
+        padding-top: 14px;
+        span{
+            margin-left: 47px;
+        }
+    }
+    &__novisible{
+        display: none;
+        @include md-d{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+            width: 382px;
+            height: 130px;
+            margin-top: 16px;
+            img{
+                width: 382px;
+            height: 130px; 
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 52px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        @include md-d{
+            flex-direction: column;
+        }
+    }
+
+    &__left {
+        position: relative;
+        height: 100%;
+        margin-left: 10px;
+        @include md-d{
+            margin-left: 0;
+        }
+        .slick-track {
+            display: flex !important;
+        }
+        .slick-slide {
+            @include md-d {
+            
+            }
+        }
+        .slick-list {
+            overflow: hidden;
+            width: 628px;
+            @include md-d {
+                padding: 0; 
+                
+            }
+            @include xxl-d {
+                padding: 0;
+                width: 547px;
+            }
+            @include xl-d{
+                width: 456px;
+            }
+            @include lg-d {
+                width: 336px;
+            }
+            @include md-d{
+                width: 382px;
+            }
+        }  
+        
+    }
+
+    &__title {
+        border: 1px solid #808080;
+        padding-top: 28px;
+        padding-bottom: 35px;
+        text-align: center;
+        @include xxl-d{
+            font-size: 47px;
+            padding-top: 36px;
+            padding-bottom: 37px;
+        }
+        @include lg-d{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+        @include md-d{
+            padding-top: 24px;
+            padding-bottom: 26px;
+            max-width: 382px;
+        }
+        h2 {
+            color: $accent;
+            font-size: 55px;    
+            @include xxl-d{
+                font-size: 47px;
+                line-height: 60px;
+
+            }
+            @include xl-d{
+                font-size: 45px;
+            }
+            @include lg-d{
+                font-size: 34px;
+                line-height: 43px;
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: $whiteColor;
+        @include xxl-d{
+            font-size: 20px;
+line-height: 36px;
+        }
+        @include xl-d{
+            font-size: 16px;
+line-height: 32px;
+        }
+        @include lg-d{
+            font-size: 12px;
+line-height: 20px;
+        }
+        @include md-d{
+            margin-top: 32px;
+            padding-left: 0;
+        }
+        @include md-d{
+            max-width: 310px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        p{
+            margin-bottom: 45px;
+            @include md-d{
+                margin-bottom: 30px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+    &__bottom{
+        margin-top: 56px;
+        @include xxl-d{
+            margin-top: 82px;
+        }
+        @include xl-d{
+            margin-top: 60px;
+        }
+        @include lg-d{
+            margin-top: 41px;
+        }
+        @include md-d{
+            padding-left: 0;
+        }
+        @include md-d{
+            margin-top: 16px;
+        }
+    }
+    &__box{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 49px;
+        color: $whiteColor;
+        margin-top: 32px;
+        &:first-child{
+            margin-top: 0;
+        }
+        @include lg-d{
+            margin-top: 24px;
+        }
+        @include md-d{
+            margin-top: 16px;
+        }
+        span{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            text-transform: uppercase;
+            color: $accent;
+            margin-right: 10px;
+            @include lg-d{font-size: 30px;}
+        }
+    }
+    &__right{
+        margin-top: 183px;
+        margin-right: 10px;  
+        @include lg-d{
+            margin-top: 134px;
+        }
+        @include md-d{
+            margin-right: 0;
+            display: none;
+
+        }
+        .slick-track {
+            display: flex !important;
+        }
+        .slick-slide {
+            @include md-d {
+            
+            }
+        }
+        .slick-list {
+            overflow: hidden;
+            width: 628px;
+            height: 580px !important;
+            display: flex;
+            @include xxl-d {
+                padding: 0;
+                width: 543px;
+                height: 509px !important;
+                position: relative;
+                right: 0;
+            }
+            @include xl-d{
+                width: 456px;
+            }
+            
+            @include lg-d {
+                width: 336px;
+                height: 463px;
+            }
+            @include md-d{
+                width: 382px;
+                height: 130px;
+            }
+        }      
+    }  
+    &__novisible{
+        background: #000;
+        border: 1px solid #808080;
+        
+    }
+    &__content-first{
+        &:nth-child(1){
+          .slider__novisible{
+            img{
+                width: 255px;
+                height: 34px;
+            }
+          }
+        }
+        &:nth-child(2){
+            .slider__novisible{
+              img{
+                  width: 258px;
+                  height: 94px;
+              }
+            }
+          }
+          &:nth-child(3){
+            .slider__novisible{
+              img{
+                  width: 247px;
+                  height: 64px;
+              }
+            }
+          }
+          &:nth-child(4){
+            .slider__novisible{
+              img{
+                  width: 114px;
+                  height: 114px;
+              }
+            }
+          }
+          &:nth-child(5){
+            .slider__novisible{
+              img{
+                  width: 79px;
+                  height: 79px;
+              }
+            }
+          }
+          &:nth-child(6){
+            .slider__novisible{
+              img{
+                width: 207px;
+                height: 102px;
+              }
+            }
+          }
+          &:nth-child(7){
+            .slider__novisible{
+              img{
+                width: 280px;
+                height: 84px;
+              }
+            }
+          }
+          &:nth-child(8){
+            .slider__novisible{
+              img{
+                width: 192px;
+                height: 113px;
+              }
+            }
+          }
+          &:nth-child(9){
+            .slider__novisible{
+              img{
+                  width: 84px;
+                  height: 84px;
+              }
+            }
+          }
+        
+    }
+    &__content-second{
+        border: 1px solid #808080;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:first-child{
+            img{
+                width: 407px;
+                @include xxl-d{
+                    width: 328px;
+                }
+                @include lg-d{
+                    width: 250px;
+                }
+            }
+        }
+        &:nth-child(2){
+            img{
+                width: 327px;
+                @include lg-d{
+                    width: 258px;
+                }
+            }
+        }
+        &:nth-child(3){
+            img{
+                width: 466px;
+                @include xxl-d{
+                    width: 258px;
+                }
+                @include lg-d{
+                    width: 247px;
+                }
+            }
+        }
+        &:nth-child(4){
+            img{
+                width: 250px;
+                @include xl-d{
+                    width: 223px;
+                }
+                @include lg-d{
+                    width: 187px;
+                }
+            }
+        }
+        &:nth-child(5){
+            img{
+                width: 177px;
+                @include lg-d{
+                    width: 130px;
+                }
+            }
+        }
+        &:nth-child(6){
+            img{
+                width: 248px;
+                @include lg-d{
+                    width: 130px;
+                }
+            }
+        }
+        &:nth-child(7){
+            img{
+                width: 456px;
+                @include lg-d{
+                    width: 280px;
+                }
+            }
+        }
+        &:nth-child(8){
+            img{
+                width: 396px;
+                @include xl-d{
+                    width: 288px;
+                }
+            }
+        }
+        &:nth-child(9){
+            img{
+                width: 181px;
+                @include lg-d{
+                    width: 137px;
+                }
+            }
+        }
+        @include xxl-d{
+            width: 543px;
+            height: 509px;
+        }
+        @include xl-d{
+            width: 456px;
+        }
+        @include md-d{
+            display: none;
+        }
+        
+        
+    }
+    
+	.slick-arrow {
+		position: absolute;
+		top: 0px;
+        width: 306px;
+        height: 135px;
+        border: 1px solid #808080;
+		font-size: 0;		
+		display: inline-block;
+        background-repeat: no-repeat;
+        transition: 0.2s linear;
+        z-index: 999;
+        @include xxl-d{
+            width: 261px;
+        }
+        @include xl-d{
+            width: 216px;
+        }
+        @include lg-d{
+            width: 156px;
+            height: 92px;
+        }
+        @include md-d{
+            transform: translateY(-170px);
+            width: 179px;
+            height: 91px;
+            top: 806px;
+        }
+        &:hover{
+            opacity: 0.6;
+            transition: 0.2s linear;
+            cursor: pointer;
+            opacity: 0.5;
+
+        }
+	}
+	.slick-prev {
+		right: 294px;
+        margin-right: 39px;
+        background-image: url(/img/arr1.png);
+		background-size: 78px;
+		background-position: center;
+		background-color: transparent;
+        @include xxl-d{
+           right: 257px;
+        }
+        @include xl-d{
+            right: 212px;
+         }
+        @include lg-d{
+            right: 153px;
+            background-size: 44px;
+        }
+        @include md-d{
+            background-size: 44px;
+            right: 164px;
+        }
+	}
+	.slick-next {
+		right: 10px;
+        background-image: url(/img/arr2.png);
+		background-size: 78px;
+		background-position: center;
+		background-color: transparent;
+        @include xxl-d{
+            
+        }@include lg-d{
+            background-size: 44px;
+
+        }
+        @include md-d{
+            background-size: 44px;
+
+        }
+	}
+	
+}

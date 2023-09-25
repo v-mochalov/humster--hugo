@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="full-releases">
+    <div class="container">
+        <h1 class="full-releases__title">{{ .Title }}</h1>
+        <div class="full-releases__img">
+            <img src="{{ .Params.Thumbnail }}" alt="blog">
+        </div>
+        <div class="full-releases__content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<section class="more">
+    <div class="container">
+        <h2 class="more__title">
+            <div class="h2-title h2-title--small">MORE RELEASES</div>
+        </h2>
+        <div class="blog__wrapper">
+            {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
+            {{ .Render "li"}}
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+{{ end }}

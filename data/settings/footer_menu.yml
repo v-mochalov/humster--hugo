@@ -1,0 +1,9 @@
+nav_items:
+  - label: TERMS OF USE
+    path: "#"
+  - label: Team
+    path: "/#team"
+  - label: PRIVACY POLICY
+    path: "#"
+  - label: BLOG
+    path: "/blog"

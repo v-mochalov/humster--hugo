@@ -1,0 +1,130 @@
+.mobile {
+    background: url("/img/videobg.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 142px;
+    padding-bottom: 142px;
+    position: relative;
+    
+    @include lg-d{
+        padding-top: 104px;
+        padding-bottom: 132px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 603px;
+    }
+
+    &__img {
+        width: 304px;
+        height: 603px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: scale(0.1);
+        @include lg-d{
+            width: 260px;
+            height: 516px;
+        }
+
+    }
+   
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    video {
+        position: absolute;
+        top: 12px;
+        left: 13px;
+
+        width: 280px;
+        height: 577px;
+        border-radius: 40px;
+        object-fit: cover;
+        z-index: 1;
+        @include lg-d{
+            width: 238px;
+            height: 488px;
+        }
+    }
+    &__title{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 851px;
+        height: 435px;
+        @include lg-d{
+            width: 570px;
+            height: 293px;
+        }
+        @include md-d{
+            width: 387px;
+            height: 214px;
+        }
+        div{
+            width: 100%;
+            position: relative;
+            
+            &:nth-child(1){
+             height: 135px; 
+             @include lg-d{
+                height: 92px;
+            }  
+            @include md-d{
+                height: 63px;
+            }  
+            }
+            &:nth-child(2){
+                height: 158px;   
+                @include lg-d{
+                    height: 107px;
+                }
+                @include md-d{
+                    height: 74px;
+                } 
+            }
+            &:nth-child(3){
+                height: 115px;  
+                @include lg-d{
+                    height: 78px;
+                } 
+                @include md-d{
+                    height: 53px;
+                } 
+            }
+               img{
+                position: absolute;
+                left: 0;
+                top: 0;
+               }
+        }
+       
+    }
+    &__trigger{
+        opacity: 0;
+        transform: translate(0, -300px);
+        &--ru1{
+            height: 167px !important;
+        }
+    }
+    &__border {
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+        transform: rotate(180deg);
+
+        img {
+            height: 120px;
+            width: 100vw;
+        }
+    }
+}

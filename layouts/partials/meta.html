@@ -1,0 +1,48 @@
+{{ if .Params.seoTitle }}
+<title>{{ .Params.seoTitle }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Params.seoTitle }} | {{ .Site.Title }}">
+<meta property="twitter:title" content="{{ .Params.seoTitle }} | {{ .Site.Title }}">
+{{ else }}
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+{{ end }}
+
+{{ if .Params.seoDescription }}
+<meta name="description" content="{{ .Params.seoDescription }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ .Params.seoDescription }} | {{ .Site.Title }}">
+<meta property="twitter:description" content="{{ .Params.seoDescription }} | {{ .Site.Title }}">
+{{ else }}
+<meta name="description" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="twitter:description" content="{{ .Title }} | {{ .Site.Title }}">
+{{ end }}
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="{{ .Site.Params.siteName }}">
+<!--<meta name="twitter:card" content="summary">-->
+<!--<meta name="twitter:site" content="@Perfomo_io">-->
+
+<meta name="robots" content="index">
+
+<meta property="og:type" content="website">
+
+
+{{ if .Params.seoThumbnail }}
+<meta name="twitter:image" content="{{ .Params.seoThumbnail | absURL }}">
+<meta property="og:image" content="{{ .Params.seoThumbnail | absURL }}">
+{{ else }}
+<meta name="twitter:image" content="{{ .Site.Params.siteLogo | absURL }}">
+<meta property="og:image" content="{{ .Site.Params.siteLogo | absURL }}">
+{{ end }}
+
+<meta property="og:image:alt" content="{{ .Title }} thumbnail | {{ .Site.Title }}">
+
+<meta property="og:url" content="{{ .Permalink  | absURL }}">
+<link rel="canonical" href="{{ .Permalink | absURL }}">
+<link rel="alternate" href="{{ .Permalink  | absURL }}" hreflang="x-default">
+
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.facebook.com">
+<link rel="dns-prefetch" href="//www.connect.facebook.net">
+<link rel="dns-prefetch" href="//twitter.com">

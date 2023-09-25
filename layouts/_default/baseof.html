@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+  {{ partial "0-head" . }}
+
+  <body class="{{ .Page.Kind }} {{ .Page.Type }} {{ .Site.Hugo.Version }}">
+    {{ block "header" . }}{{ partial "1-navbar" . }}{{end}} {{ block "main" . }}
+    {{ end }} {{ partial "50-footer" . }}
+  </body>
+  <!-- GSAP Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+
+
+</html>
