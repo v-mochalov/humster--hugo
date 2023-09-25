@@ -58,11 +58,10 @@
               <div class="header__img">
                 <img src="img/vertical.webp" alt="arrow">
               </div>
-              <a href="#video" class="burger-menu_link">ПРО НАС</a>
-              <a href="#services" class="burger-menu_link">ПОСЛУГИ</a>
-              <a href="#sliderKeys" class="burger-menu_link">КЕЙСИ</a>
-              <a href="#blogers" class="burger-menu_link">БЛОГЕРИ</a>
-              <a href="#form" class="burger-menu_link">КОНТАКТИ</a>
+              {{ range .Site.Data.settings.main_menu.nav_items }}
+                  <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
+              {{ end }}
+              
               <div class="drop-btn drop-btn--mobile">
                 <button class="drop2">UA</button>
                 <div class="content2">
