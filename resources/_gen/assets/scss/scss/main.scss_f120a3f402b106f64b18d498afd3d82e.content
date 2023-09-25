@@ -1253,7 +1253,6 @@ h3 {
       .blog__btn {
         margin-top: 20px; } }
 .full-releases {
-  padding-top: 200px;
   color: #fff; }
 
 .full-releases__content {
