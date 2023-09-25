@@ -121,21 +121,17 @@ collections:
                   - label: Text
                     name: text
                     widget: string
-          - label: Partners
-            name: partners
+          - label: Video
+            name: video
             widget: object
             fields:
-              - label: Title
-                name: title
-                widget: string
-              - label: Partners
-                name: box
+              - label: Paragraph
+                name: paragraph
                 widget: list
                 fields:
-                  - label: Image
-                    name: image
-                    widget: image
-
+                  - label: Text
+                    name: text
+                    widget: string
           - label: Team
             name: team
             widget: object

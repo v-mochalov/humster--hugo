@@ -6,15 +6,9 @@
      <div class="video__wrapper">
        <div class="video__main">
          <div class="video__text">
-           <p class="video__paragraph gsap__video">У 2021 році кілька менеджерів та медіабаєрів запустили машину зі
-             створення та просування контенту. Так виник HUSTLER — креативне агентство fullstack просування.</p>
-           <p class="video__paragraph gsap__video">За останні роки ми організували понад 1000 інтеграцій у блогерів
-             різного рівня, реалізували близько 100 рекламних кампаній, встигли співпрацювати з 30+
-             гемблінг-проектами, серед яких бренди зі світовим ім'ям.</p>
-           <p class="video__paragraph gsap__video">Звертаючись до нас, ви отримуєте не просто підрядника у вигляді
-             агентства, а виділену in-house команду на аутсорсі з низкою переваг.</p>
-           <p class="video__paragraph gsap__video">Основними напрямками агентства є: influence marketing, брендинг,
-             арбітраж трафіку, виробництво та просування контенту.</p>
+          {{  range .Params.video.paragraph }}
+             <p class="video__paragraph gsap__video">{{ .text }}</p>
+          {{ end }}
          </div>
          <div class="video__arrow gsap__arrow">
            <svg width="653" height="24" viewBox="0 0 653 24" fill="none" xmlns="http://www.w3.org/2000/svg">
