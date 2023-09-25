@@ -11,7 +11,7 @@ intro:
   btn_text: ЗB’ЯЗАТИСЬ
 about_us:
   box:
-    - number: "01"
+    - number: "021"
       icon: /img/icon-1.png
       text: Web 3.0
     - number: "02"
