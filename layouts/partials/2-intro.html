@@ -3,10 +3,11 @@
      <div class="intro__wrapper">
        <div class="intro__left">
          <h1 class="intro__title ">
-          {{ .Params.intro.title }}
+          <!-- {{ .Params.intro.title }} -->
+          {{ .Params.intro.title | safeHTML }}
          </h1>
          <div class="intro__subtitle ">
-          {{ .Params.intro.subtitle }}
+          {{ .Params.intro.subtitle | safeHTML }}
          </div>
          <a href="#form" class="intro__btn btn btn--intro gsap__title">
           {{ .Params.intro.btn_text }}
