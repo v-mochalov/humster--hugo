@@ -6,6 +6,9 @@ seoThumbnail: img/blog-1.png
 date: 2023-04-18T21:43:43.922Z
 thumbnail: /img/blog-1.png
 ---
+just for the test
+
+```
 <style type="text/css">
 	p {
 		font-size: 40px;
@@ -13,3 +16,4 @@ thumbnail: /img/blog-1.png
 	}
 </style>
 <p>just for the test</p>
+```
