@@ -22,12 +22,6 @@ collections:
               - label: Path
                 name: path
                 widget: string
-          - label: Header CTA Button text
-            name: header_cta_button_text
-            widget: string
-          - label: Header CTA Button url
-            name: header_cta_button_url
-            widget: string
       - file: data/settings/footer_menu.yml
         label: Footer menu
         name: footer_menu
@@ -42,23 +36,6 @@ collections:
               - label: Path
                 name: path
                 widget: string
-      - file: data/settings/socials.yml
-        label: Socials icon
-        name: socials
-        fields:
-          - label: Nav items
-            name: nav_items
-            widget: list
-            fields:
-              - label: Icon
-                name: icon
-                widget: markdown
-              - label: Icon URL
-                name: icon_url
-                widget: string
-          - label: Copyright
-            name: copyright
-            widget: string
   - name: blog
     label: Blog
     folder: content/blog
@@ -119,19 +96,14 @@ collections:
             name: intro
             widget: object
             fields:
-              - label: Upline
-                name: upline
-                widget: string
-                required: false
               - label: Title
                 name: title
                 widget: string
-              - label: Intro image
-                name: image
-                widget: image
-              - label: Button URL
-                name: btn_url
+                required: false
+              - label: Subtitle
+                name: subtitle
                 widget: string
+                required: false
               - label: Button text
                 name: btn_text
                 widget: string

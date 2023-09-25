@@ -4,11 +4,9 @@ seoTitle: Hustler Digital
 seoDescription: Hustler Digital
 seoThumbnail: img/logo.png
 intro:
-  upline: meta PR
-  title: PR Agency focused on Gaming, AI & Crypto
-  image: /img/intros.webp
-  btn_url: "#"
-  btn_text: Share your story
+  title: НЕ ЖЕНИСЬ <br>ЗА ТРЕНДАМИ <br><span>- СТВОРЮЙ ЇХ!</span>
+  subtitle: Послуги онлайн просування, розробки<br> та запровадження стратегії онлайн-маркетингу
+  btn_text: ЗВ’ЯЗАТИСЬ
 about_us:
   box:
     - number: "01"
