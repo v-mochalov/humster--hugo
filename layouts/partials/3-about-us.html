@@ -5,13 +5,13 @@
          <img src="img/dangers.webp" alt="hustlerdigital">
          <img src="img/dangers.webp" alt="hustlerdigital">
        </div>
-       {{  range .Params.about_us.box }}
+       {{  range .Params.numbers.box }}
             <div class="number__box counters">
                 <div class="number__main">{{ .number | safeHTML}}</div>
                 <div class="number__remark">{{ .text }}</div>
             </div>
         {{ end }}
-      <div class="number__box counters">
+      <!-- <div class="number__box counters">
         <div class="number__main"><span class="animCounter" id="counter3">100</span>M</div>
         <div class="number__remark">Загальне охоплення бази блогерів</div>
       </div>
@@ -25,7 +25,7 @@
        </div>
        <div class="number__box counters">
          <div class="number__main"><span class="animCounter" id="counter4">120</span>+</div>
-         <div class="number__remark">Рекламних кампаній запущено цього року</div>
+         <div class="number__remark">Рекламних кампаній запущено цього року</div> -->
        </div>
      </div>
    </div>
