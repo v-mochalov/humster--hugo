@@ -8,47 +8,16 @@ intro:
   subtitle: Послуги онлайн просування, розробки<br> та запровадження стратегії
     онлайн-маркетингу
   btn_text: ЗB’ЯЗАТИСЬ
-about_us:
+numbers:
   box:
-    - number: "021"
-      icon: /img/icon-1.png
-      text: Web 3.0
-    - number: "02"
-      icon: /img/icon-2.png
-      text: Metaverse
-    - number: "03"
-      icon: /img/icon-3.png
-      text: Omniverse
-    - number: "04"
-      icon: /img/icon-4.png
-      text: DeFi
-    - number: "05"
-      icon: /img/icon-5.png
-      text: GameFi
-    - number: "06"
-      icon: /img/icon-6.png
-      text: NFTs
-  title: about us
-  achievements:
-    - number: 250+
-      text: media partners
-    - number: 40M+
-      text: users reach
-    - number: 50+
-      text: successful cases
-  info: >-
-    With a wealth of experience under our belt, the MetaPR team has honed its
-    skills in traditional tech, crypto, finance, journalism, communications,
-    marketing, and AI. We have contributed to prestigious media outlets such as
-    CNN and Forbes, and collaborated with gaming companies, venture capital
-    firms, AI companies, international marketing agencies, and social media
-    platforms. By integrating this eclectic range of expertise and adopting
-    cutting-edge technologies we believe in, we deliver PR services defined by
-    comprehensive subject-matter understanding and unwavering commitment to
-    addressing our clients' needs.
-
-
-    Our ultimate aim is to forge a seamless partnership with you, seeking the best fit for both parties. We firmly believe that fruitful collaboration is underpinned by the exchange of knowledge and synergy between our team and our partners.
+    - number: <span class="animCounter" id="counter3">100</span>M
+      text: Загальне охоплення бази блогерів
+    - number: <span class="animCounter" id="counter">10</span>+
+      text: Cвітових брендів, які співпрацюють
+    - number: <span class="animCounter" id="counter2">28</span>
+      text: Місяців - найдовше LTV з клієнтом
+    - number: <span class="animCounter" id="counter4">120</span>+
+      text: Рекламних кампаній запущено цього року
 partners:
   title: PARTNERS & CLIENTS
   box:

@@ -98,7 +98,7 @@ collections:
             fields:
               - label: Title
                 name: title
-                widget: markdown
+                widget: string
               - label: Subtitle
                 name: subtitle
                 widget: string
@@ -107,8 +107,8 @@ collections:
                 name: btn_text
                 widget: string
 
-          - label: About Us
-            name: about_us
+          - label: Numbers
+            name: numbers
             widget: object
             fields:
               - label: Box
@@ -118,29 +118,9 @@ collections:
                   - label: Number
                     name: number
                     widget: string
-                  - label: Icon
-                    name: icon
-                    widget: image
                   - label: Text
                     name: text
                     widget: string
-              - label: Title
-                name: title
-                widget: string
-              - label: Achievements
-                name: achievements
-                widget: list
-                fields:
-                  - label: Number
-                    name: number
-                    widget: string
-                  - label: Text
-                    name: text
-                    widget: string
-              - label: Info
-                name: info
-                widget: markdown
-
           - label: Partners
             name: partners
             widget: object
