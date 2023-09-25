@@ -1,9 +1,7 @@
 ---
-title: MPR
-seoTitle: PR AGENCY FOCUSED ON WEB 3.0
-seoDescription: With a wealth of experience under our belt, the MetaPR team has
-  honed its skills in traditional tech, crypto, finance, journalism,
-  communications, marketing, and AI.
+title: Hustler Digital
+seoTitle: Hustler Digital
+seoDescription: Hustler Digital
 seoThumbnail: img/logo.png
 intro:
   upline: meta PR
