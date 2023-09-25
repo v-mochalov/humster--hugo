@@ -1,11 +1,13 @@
 nav_items:
   - label: ПРО НАС
-    path: "/#video"
+    path: "#video"
   - label: ПОСЛУГИ
-    path: "/#services"
+    path: "#services"
   - label: КЕЙСИ
-    path: "/#sliderKeys"
+    path: "#sliderKeys"
   - label: БЛОГЕРИ
-    path: "/blogers"
+    path: "#blogers"
   - label: КОНТАКТИ
-    path: "/form"
+    path: "#form"
+  - label: НОВИНИ
+    path: "#news"
