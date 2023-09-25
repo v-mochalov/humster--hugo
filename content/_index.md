@@ -5,8 +5,7 @@ seoDescription: Hustler Digital
 seoThumbnail: img/logo.png
 intro:
   title: НЕ ЖЕНИСЬ <br>ЗА ТРЕНДАМИ <br><span>- СТВОРЮЙ ЇХ!</span>
-  subtitle: Послуги онлайн просування, розробки<br> та запровадження стратегії
-    онлайн-маркетингу
+  subtitle: ""
   btn_text: ЗB’ЯЗАТИСЬ
 about_us:
   box:
