@@ -98,8 +98,7 @@ collections:
             fields:
               - label: Title
                 name: title
-                widget: string
-                required: false
+                widget: markdown
               - label: Subtitle
                 name: subtitle
                 widget: string
