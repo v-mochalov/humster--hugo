@@ -3,29 +3,15 @@
      <div class="services__wrapper">
        <div class="services__top">
          <div class="services__title gsap__service">
-           <h2>ПОСЛУГИ</h2>
-           <div class="services__remark gsap__service">ідеальне combo з ефективних інструментів
-             маркетингу, експірієнсу і лідерів думок.</div>
+           <h2>{{ .Params.services.title }}</h2>
+           <div class="services__remark gsap__service">{{ .Params.services.subtitle }}</div>
          </div>
          <div class="services__hashtag">
-           <div class="services__tag gsap__service">
-             #маркетинг
-           </div>
-           <div class="services__tag gsap__service">
-             #блогери
-           </div>
-           <div class="services__tag gsap__service">
-             #стратегія
-           </div>
-           <div class="services__tag gsap__service">
-             #smm
-           </div>
-           <div class="services__tag gsap__service">
-             #реклама
-           </div>
-           <div class="services__tag gsap__service">
-             #лідеридумок
-           </div>
+          {{  range .Params.services.hashtag }}
+            <div class="services__tag gsap__service">
+              #{{ .text }}
+            </div>
+          {{ end }}
          </div>
        </div>
      </div>
@@ -33,152 +19,16 @@
        <div class="quest">
          <div class="wrapper">
            <div class="block one">
-             <div class="block__item gsap__accordeon">
-               <div class="block__title "><span>INFLUENCER MARKETING</span></div>
-               <div class="block__text ">
-                 <p>Рекламні інтеграції у блогерів та лідерів думок
-                 </p>
-                 <p>Організація онлайн трансляцій з топовими стрімерами
-                 </p>
-                 <p>Залучення гравців у сфері гемблінгу/беттингу
-                 </p>
-                 <p>Розробка, створення та промоушен онлайн та офлайн івентів з лідерами думок
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title "><span>DIGITAL КРЕАТИВ & ПРОДАКШН</span></div>
-               <div class="block__text ">
-                 <p>Створення та ведення корпоративних каналів YouTube / Twitch
-                 </p>
-                 <p>Розробка брендингу та корпоративного стилю
-                 </p>
-                 <p>Створення креативних промоматеріалів
-                 </p>
-                 <p>Створення іміджевих відеороликів
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title "><span>РОЗРОБКА РЕКЛАМНИХ СТРАТЕГІЙ</span></div>
-               <div class="block__text ">
-                 <p>Розробка рекламної стратегії з 0 під різні бізнес завдання
-                 </p>
-                 <p>Підвищення впізнаваності та лояльності бренду на ринку
-                 </p>
-                 <p>Пошук нових та утримання старих клієнтів
-                 </p>
-                 <p>Формування позиціонування серед ЦА
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title "><span>RESEARCH & DEVELOPMENT</span></div>
-               <div class="block__text ">
-                 <p>Загальна оцінка та аналіз проекту
-                 </p>
-                 <p>Пророблення прогалин та невикористаних можливостей
-                 </p>
-                 <p>Підбір та впровадження готових рішень під різні бізнес-завдання
-                 </p>
-                 <p>Рекомендації щодо подальшого розвитку на існуючому та потенційному ринках
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title "><span>MEDIA BUYING</span></div>
-               <div class="block__text ">
-                 <p>Розміщення реклами на майданчиках із максимальним охопленням ЦА
-                 </p>
-                 <p>Медіапланування, зрозумілий та швидкий процес закупівлі, аналіз ринку та переговори
-                 </p>
-                 <p>Зрозуміла аналітика, можливість кастомізувати параметри, оптимізація
-                 </p>
-                 <p>Робота з унікальними майданчиками – Pornhub, OnlyFans, TikTok
-                 </p>
-                 <p>Підготовка матеріалів відповідно до технічних вимог паблішерів
-                 </p>
-                 <p>Підбиття підсумків, звітність, аналіз ефективності
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title ">SOCIAL MEDIA MARKETING</div>
-               <div class="block__text ">
-                 <p>Створення та ведення провідних соціальних мереж від імені бренду
-                 </p>
-                 <p>Створення іміджу, підвищення лояльності та впізнаваності бренду
-                 </p>
-                 <p>Залучення та монетизація цільової аудиторії
-                 </p>
-                 <p>Розробка, створення та просування якісного контенту
-                 </p>
-                 <p>Проведення розіграшів, конкурсів, трансляцій
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title ">ТАРГЕТОВАНА РЕКЛАМА</div>
-               <div class="block__text ">
-                 <p>Формування ЦА
-                 </p>
-                 <p>Аналіз конкурентів
-                 </p>
-                 <p>А/В тестування
-                 </p>
-                 <p>Створення, запуск та масштабування РК
-                 </p>
-                 <p>Аналітичний аналіз та звітність
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title ">СТВОРЕННЯ ТА ПРОСУВАННЯ DIGITAL КОНТЕНТУ</div>
-               <div class="block__text ">
-                 <p>Створення та промоції якісного цифрового контенту
-                 </p>
-                 <p>Створення навчального, розважального, вірусного контенту
-                 </p>
-                 <p>Привернення уваги аудиторії до бренду
-                 </p>
-                 <p>Inbound marketing як доступна заміна нав’язливій рекламі
-                 </p>
-                 <p>Завоювання ринку цікавим та корисним контентом
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title ">АРБІТРАЖ ТРАФІКУ</div>
-               <div class="block__text ">
-                 <p>Гарантоване залучення високоякісного трафіку
-                 </p>
-                 <p>Вертикаль: гемблінг, беттінг, детинг, крипта, кіберспорт
-                 </p>
-                 <p>Джерело: Google, facebook, in-app
-                 </p>
-                 <p>Модель роботи CPA, CPM, CPI
-                 </p>
-                 <p>Працюємо безпосередньо з рекламодавцями, що дає нам найкращі умови на ринку
-                 </p>
-               </div>
-             </div>
-             <div class="block__item gsap__accordeon">
-               <div class="block__title ">AFFILIATE MARKETING</div>
-               <div class="block__text ">
-                 <p>Пошук та супровід новий інтернет партнерів
-                 </p>
-                 <p>Ведення переговорів із існуючими партнерами
-                 </p>
-                 <p>Створення креативів
-                 </p>
-                 <p>Аналіз конкурентів та трендів
-                 </p>
-                 <p>Створення, наповнення та ведення соціальних мереж
-                 </p>
-                 <p>Аналітика та звітність
-                 </p>
-               </div>
-             </div>
+              {{  range .Params.services.accordion }}
+                <div class="block__item gsap__accordeon">
+                  <div class="block__title "><span>{{ .title }}</span></div>
+                  <div class="block__text ">
+                    {{  range .Params.services.accordion.paragraph }}                      
+                          <p>{{ .text }}</p>
+                    {{ end }}
+                  </div>
+                </div>
+              {{ end }}
            </div>
          </div>
 

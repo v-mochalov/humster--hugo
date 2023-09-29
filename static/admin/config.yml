@@ -132,26 +132,37 @@ collections:
                   - label: Text
                     name: text
                     widget: string
-          - label: Team
-            name: team
+          - label: Services
+            name: services
             widget: object
             fields:
               - label: Title
                 name: title
                 widget: string
-              - label: Team Box
-                name: box
+              - label: Subtitle
+                name: subtitle
+                widget: string
+              - label: Hashtag
+                name: hashtag
                 widget: list
                 fields:
-                  - label: Image
-                    name: image
-                    widget: image
-                  - label: Name
-                    name: name
+                  - label: Text
+                    name: text
                     widget: string
-                  - label: Position
-                    name: position
+              - label: Accordion
+                name: accordion
+                widget: list
+                fields:
+                  - label: Title
+                    name: title
                     widget: string
+                  - label: Raragraph
+                    name: paragraph
+                    widget: list
+                    fields:
+                      - label: Text
+                        name: text
+                        widget: string
           - label: Slider
             name: reviews
             widget: object
