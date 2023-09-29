@@ -164,31 +164,34 @@ collections:
                         name: text
                         widget: string
           - label: Slider
-            name: reviews
+            name: sliders
             widget: object
             fields:
-              - label: Upline
-                name: upline
-                widget: string
-                required: false
-              - label: Title
-                name: title
-                widget: string
-              - label: Slider
-                name: slider
+              - label: Slider-left
+                name: sliderLeft
                 widget: list
                 fields:
+                  - label: Title
+                    name: title
+                    widget: string
                   - label: Image
                     name: image
-                    widget: image
-                  - label: Text
-                    name: text
+                    widget: image  
+                  - label: Paragraph
+                    name: paragraph
+                    widget: list
+                    fields:
+                      - label: Text
+                        name: text
+                        widget: string                
+                  - label: Blogers
+                    name: blogers
                     widget: string
-                  - label: Name
-                    name: name
+                  - label: Coverage
+                    name: coverage
                     widget: string
-                  - label: Position
-                    name: position
+                  - label: Country
+                    name: country
                     widget: string
           - label: Form
             name: form

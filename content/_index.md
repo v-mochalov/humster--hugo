@@ -106,23 +106,64 @@ services:
         - text: Аналіз конкурентів та трендів
         - text: Створення, наповнення та ведення соціальних мереж
         - text: Аналітика та звітність
-reviews:
-  upline: MPR
-  title: Testimonials
-  slider:
-    - image: /img/slider-1.png
-      text: Meta Team demonstrated an outstanding ability to add value immediately
-        through a more strategic, thoughtful, and holistic approach to PR than
-        previous agencies with whom we’d engaged with. Highly recommended.
-      name: Hartej Sawhney
-      position: CEO and Founder at Zokyo
-    - image: /img/slider-3.png
-      text: MetaPR combines a traditional PR approach with a deep knowledge of Web 3,
-        gaming, and crypto. They do not overpromise but exceed expectations. To
-        DMarket they became not only a business partner but a reliable friend
-        who can always help with advice in PR and communications.
-      name: Vlad Panchenko
-      position: CEO and Founder at DMarket
+sliders:
+  sliderLeft:
+      - title: FAVBET
+        image: img/favbet.webp
+        paragraph:
+          - text: Українська букмекерська компанія, заснована 1999 року ліцензована Curaçao eGaming License.
+          - text: підбір блогерів, оптова закупівля інтеграцій
+        blogers: <span>100 +</span> Блогерів
+        coverage: <span>10M</span> Охоплення
+        country: Ukraine, Romania, Croatia
+      - title: Gorilla
+        image: img/gorilla.webp
+        paragraph:
+          - text: Молодий букмекер повністю орієнтована на молодіжну аудиторію, який за короткий період часу підірвав медіа простором своїм агресивним маркетингом.
+          - text: продакшн та промоушн контенту
+        blogers: <span>300+</span> блогерів
+        coverage: <span>10M</span> Охоплення
+        country: Ukraine
+      - title: Elslots
+        image: img/elslots.webp
+        paragraph:
+          - text: Онлайн казіно, орієнтоване лише на українських користувачів, розпочало роботу наприкінці 2017 року.
+          - text: підбір блогерів/ продакшн / промоушн контента
+        blogers: <span>100 +</span> Блогерів
+        coverage: <span>30M</span> Охоплення
+        country: Ukraine
+      - title: Aura Vizor
+        image: img/aura.webp
+        paragraph:
+          - text: Соціальна мережа із першою у світі технологією "FACE SHAZAM". Дати вертикаль.
+          - text: розробка/ продакшн / промоушн контента
+        blogers: <span>50+</span> Блогерів
+        coverage: <span>9M</span> Охоплення
+        country: Ukraine
+      - title: 1Win
+        image: img/1win.webp
+        paragraph:
+          - text: Молодий ліцензований майданчик з азартними розвагами ліцензований Curaçao eGaming License.
+          - text: підбір блогерів, оптова закупівля інтеграцій
+        blogers: <span>300 +</span> Блогерів
+        coverage: <span>20M</span> Охоплення
+        country: Latam , India
+      - title: 1xBet
+        image: img/1xbet.webp
+        paragraph:
+          - text: Компанія, що займається азартними онлайн-іграми, ліцензована Curaçao eGaming License.
+          - text: розробка / промо / продакшн
+        blogers: <span>110 +</span> Блогерів
+        coverage: <span>11M</span> Охоплення
+        country: Ukraine
+      - title: PARIMATCH
+        image: img/parimatch.webp
+        blogers: <span>50 +</span> Блогерів
+        coverage: <span>5M</span> Охоплення
+        country: Ukraine
+        paragraph:
+          - text: Міжнародна букмекерська компанія в Європі зі штаб-квартирою в Лімасолі, Кіпр, заснована в 1994 році.
+          - text: Підбір лідерів думок / розробка / продакшн та промоушн контенту
 form:
   telegram: Telegram
   message: Message
