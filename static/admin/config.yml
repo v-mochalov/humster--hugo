@@ -156,7 +156,7 @@ collections:
                   - label: Title
                     name: title
                     widget: string
-                  - label: Raragraph
+                  - label: Paragraph
                     name: paragraph
                     widget: list
                     fields:
@@ -167,7 +167,7 @@ collections:
             name: sliders
             widget: object
             fields:
-              - label: Slider-left
+              - label: Slider Left
                 name: sliderLeft
                 widget: list
                 fields:

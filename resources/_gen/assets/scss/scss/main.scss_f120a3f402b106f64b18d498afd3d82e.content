@@ -1461,7 +1461,7 @@ h3 {
     @media only screen and (max-width: 767px) {
       .slider__right {
         margin-right: 0;
-        display: none; } }
+        display: none !important; } }
     .slider__right .slick-track {
       display: flex !important; }
     .slider__right .slick-list {
@@ -1520,9 +1520,12 @@ h3 {
   .slider__content-second {
     border: 1px solid #808080;
     background: #000;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 767px) {
+      .slider__content-second {
+        display: none !important; } }
     .slider__content-second:first-child img {
       width: 407px; }
       @media only screen and (max-width: 1439px) {
@@ -1584,12 +1587,9 @@ h3 {
     @media only screen and (max-width: 1139px) {
       .slider__content-second {
         width: 456px; } }
-    @media only screen and (max-width: 767px) {
-      .slider__content-second {
-        display: none; } }
   .slider .slick-arrow {
     position: absolute;
-    top: 0px;
+    top: -183px;
     width: 306px;
     height: 135px;
     border: 1px solid #808080;
@@ -1606,8 +1606,9 @@ h3 {
         width: 216px; } }
     @media only screen and (max-width: 1023px) {
       .slider .slick-arrow {
-        width: 156px;
-        height: 92px; } }
+        width: 141px;
+        height: 92px;
+        top: -133px; } }
     @media only screen and (max-width: 767px) {
       .slider .slick-arrow {
         transform: translateY(-170px);
@@ -1620,7 +1621,7 @@ h3 {
       cursor: pointer;
       opacity: 0.5; }
   .slider .slick-prev {
-    right: 294px;
+    right: 283px;
     margin-right: 39px;
     background-image: url(/img/arr1.png);
     background-size: 78px;
@@ -1628,10 +1629,10 @@ h3 {
     background-color: transparent; }
     @media only screen and (max-width: 1439px) {
       .slider .slick-prev {
-        right: 257px; } }
+        right: 243px; } }
     @media only screen and (max-width: 1139px) {
       .slider .slick-prev {
-        right: 212px; } }
+        right: 202px; } }
     @media only screen and (max-width: 1023px) {
       .slider .slick-prev {
         right: 153px;
@@ -1641,7 +1642,7 @@ h3 {
         background-size: 44px;
         right: 164px; } }
   .slider .slick-next {
-    right: 10px;
+    right: 0px;
     background-image: url(/img/arr2.png);
     background-size: 78px;
     background-position: center;

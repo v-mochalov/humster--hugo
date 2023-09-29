@@ -25,12 +25,13 @@
                 <div class="slider__novisible">
                   <img src="{{ .image }}" alt="{{ .title }}">
                 </div>
-                <div class="slider__text">
-                    {{  range .Params.sliders.sliderLeft.paragraph }}                      
-                          <p>{{ .text }}</p>
-                    {{ end }}
+                <div class="slider__text">                      
+                  {{  range .paragraph }}
+                      <p>{{ .text }}</p>
+                  {{ end }}
                 </div>
                 <div class="slider__bottom">
+                  
                   <div class="slider__box">
                     {{ .blogers | safeHTML }}
                   </div>
@@ -40,9 +41,7 @@
                   </div>
                   <div class="slider__box">
                     {{ .country }}
-                  </div>
-    
-    
+                  </div>    
                 </div>
               </div>
           {{ end }}
@@ -61,9 +60,6 @@
          <div class="slider__content-second">
            <img src="img/aura.webp" alt="aura">
          </div>
-         <!-- <div class="slider__content-second">
-           <img src="img/currency.webp" alt="currency">
-         </div> -->
          <div class="slider__content-second">
            <img src="img/1win.webp" alt="1win">
          </div>
@@ -73,9 +69,6 @@
          <div class="slider__content-second">
            <img src="img/parimatch.webp" alt="parimatch">
          </div>
-         <!-- <div class="slider__content-second">
-           <img src="img/lev.webp" alt="lev">
-         </div> -->
        </div>
      </div>
    </div>
