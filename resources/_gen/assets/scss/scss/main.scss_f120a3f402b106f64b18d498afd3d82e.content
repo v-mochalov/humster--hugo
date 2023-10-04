@@ -1251,14 +1251,13 @@ h3 {
   .blog__downline {
     padding-bottom: 30px; }
   .blog__data {
-    font-family: "Poppins";
+    font-family: Montserrat;
+    font-size: 14px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 30px;
-    text-transform: uppercase;
-    opacity: 0.5;
-    margin-bottom: 20px; }
+    font-weight: 500;
+    line-height: 114.5%;
+    /* 16.03px */
+    font-variant: small-caps; }
   .blog__read a {
     color: #000;
     font-family: Montserrat;
