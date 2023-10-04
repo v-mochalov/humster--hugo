@@ -3,10 +3,13 @@
 		<img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}">
 	</div>
 	<div class="blog__content">
-		<div class="blog__upline">{{ .Title }}</div>
+		<div class="blog__top">
+			<div class="blog__upline">{{ .Title }}</div>
+			<div class="blog__data">{{ .Params.downline }}</div>
+		</div>		
 		<div class="blog__downline">
 			<!-- <div class="blog__data"> {{ .PublishDate.Format "January 2, 2006" }} </div> -->
-			<div class="blog__data">{{ .Params.downline }}</div>
+			
 			<div class="blog__read">
 				<a href="{{ .Permalink }}">Детальніше</a>
 			</div>

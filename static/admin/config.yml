@@ -59,7 +59,7 @@ collections:
         widget: image
         required: false
       - label: Downline
-        name: downline
+        name: downlines
         widget: string
       - label: Thumbnail
         name: thumbnail
