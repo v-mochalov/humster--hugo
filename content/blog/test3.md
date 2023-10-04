@@ -4,7 +4,7 @@ seoTitle: "Embracing the Future: How AI is Transforming the PR Landscape"
 seoDescription: In this article, we'll explore the key ways AI is transforming
   the PR landscape and shaping the future of the industry.
 seoThumbnail: img/blog-3.png
-date: 2023-04-18T21:46:33.970Z
+downline: 2023-04-18T21:46:33.970Z
 thumbnail: /img/blog-3.png
 ---
 Artificial intelligence (AI) is revolutionizing industries worldwide, and public relations (PR) is no exception. From automating routine tasks to providing data-driven insights, AI is enabling PR professionals to work more efficiently and effectively. In this article, we'll explore the key ways AI is transforming the PR landscape and shaping the future of the industry.

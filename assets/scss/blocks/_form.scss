@@ -1,8 +1,7 @@
 .form {
-    background: url("/img/greenbg.webp");
+    background-image: url("/img/footbg.png");
     background-size: contain;
-    background-position: center;
-    padding-top: 120px;
+    padding-top: 200px;
     padding-bottom: 100px;
     @include xl-d{
         padding-top: 80px;
@@ -28,6 +27,7 @@
     &__title {
         text-align: center;
         text-transform: uppercase;
+        color: #ffffff;
         @include xl-d{
             font-size: 50px;
         }
@@ -51,12 +51,12 @@
             font-size: 20px;
             line-height: 24px;
             text-transform: uppercase;
-            color: #000000;
+            color: #ffffff;
             width: 100%;
             height: 63px;
             background: transparent;
             opacity: 0.5;
-            border: 2px solid #000000;
+            border: 2px solid #ffffff;
             backdrop-filter: blur(27px);
             margin-bottom: 24px;
             padding-left: 30px;
@@ -75,7 +75,7 @@
                 font-size: 20px;
                 line-height: 24px;
                 text-transform: uppercase;
-                color: #000000;
+                color: #ffffff;
                 opacity: 0.6;
                 transition: 0.2s linear;
                
@@ -84,7 +84,7 @@
             &:active,
             &:focus {
                 opacity: 1;
-                border: 4px solid #000000;
+                border: 4px solid #ffffff;
                 transition: 0.3s linear;
                 &::placeholder {
                     opacity: 1;
@@ -106,12 +106,12 @@
             font-size: 20px;
             line-height: 24px;
             text-transform: uppercase;
-            color: #000000;
+            color: #ffffff;
             height: 100%;
             width: 100%;
             background: transparent;
             opacity: 0.5;
-            border: 2px solid #000000;
+            border: 2px solid #ffffff;
             backdrop-filter: blur(27px);
             padding-left: 30px;
             position: relative;
@@ -132,7 +132,7 @@
                 font-size: 20px;
                 line-height: 24px;
                 text-transform: uppercase;
-                color: #000000;
+                color: #ffffff;
                 opacity: 0.6;
                 transition: 0.2s linear;
 
@@ -141,7 +141,7 @@
             &:active,
             &:focus {
                 opacity: 1;
-                border: 4px solid #000000;
+                border: 4px solid #ffffff;
                 transition: 0.3s linear;
                 &::placeholder {
                     opacity: 1;
@@ -153,5 +153,6 @@
     &__button{
         margin-top: 50px;
         align-self: center;
+
     }
 }

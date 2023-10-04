@@ -5,9 +5,10 @@
 	<div class="blog__content">
 		<div class="blog__upline">{{ .Title }}</div>
 		<div class="blog__downline">
-			<div class="blog__data"> {{ .PublishDate.Format "January 2, 2006" }} </div>
+			<!-- <div class="blog__data"> {{ .PublishDate.Format "January 2, 2006" }} </div> -->
+			<div class="blog__data">{{ .Params.downline }}</div>
 			<div class="blog__read">
-				<a href="{{ .Permalink }}">Read more</a>
+				<a href="{{ .Permalink }}">Детальніше</a>
 			</div>
 		</div>
 	</div>
