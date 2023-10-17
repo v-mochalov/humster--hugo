@@ -27,6 +27,12 @@
         font-style: normal;
         font-weight: 700;
         line-height: 73px;
+        @include lg-d {
+            font-size:  50px;
+        }
+        @include md-d {
+            font-size:  36px;
+        }
         @include sm-d {
             margin-bottom: 30px;
         }
@@ -157,8 +163,30 @@
     }
 }
 
+.releases{
+    color: #fff;
+    .blog__box{
+        border: 1px solid #fff;
+    }    
+    a{
+        color: #fff;
+    }
+}
+.releases__title{
+    padding-top: 60px;
+}
 .full-releases{
     color: #fff;
+}
+.full-releases__title{
+    padding-top: 60px;
+}
+.full-releases__img{
+    margin: 0 10px;
+    img{
+        margin-top: 30px;
+
+    }
 }
 .full-releases__content{
     margin-top: 30px;
