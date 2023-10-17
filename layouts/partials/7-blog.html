@@ -5,127 +5,28 @@
      </div>
      <div class="blogers__wrapper">
        <div class="blogers__upline">
-         <h2 class="blogers__title gsap__blog">БЛОГЕРИ</h2>
+         <h2 class="blogers__title gsap__blog">{{ .Params.blogers.title }}</h2>
          <div class="blogers__hashtag">
-           <div class="blogers__tag services__tag gsap__blog">
-             #лідеридумок
-           </div>
-           <div class="blogers__tag services__tag gsap__blog">
-             #лайфстайл
-           </div>
-           <div class="blogers__tag services__tag gsap__blog">
-             #інстаграм
-           </div>
+          {{  range .Params.blogers.hashtag }}
+            <div class="blogers__tag services__tag gsap__blog">
+              #{{ .text }}
+            </div>
+          {{ end }}
          </div>
        </div>
        <div class="blogers__content">
-         <a href="https://instagram.com/hatebloggers?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger1.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">140к <span>followers</span></div>
-             <div class="blogers__name">@hatebloggers</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/sergiy.bunda/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger6.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">164к <span>followers</span></div>
-             <div class="blogers__name">@sergiy.bunda</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/pashalimbleat/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger7.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">365к <span>followers</span></div>
-             <div class="blogers__name">@pashalimbleat</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/meshtiish/?igshid=YmMyMTA2M2Y%3D" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger9.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">70к <span>followers</span></div>
-             <div class="blogers__name">@meshtiish</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/andrey.martynenko/" target="_blank" class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger8.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">407к <span>followers</span></div>
-             <div class="blogers__name">@andrey.martynenko</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/zabolotnuygolos/" target="_blank" class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger10.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">66к <span>followers</span></div>
-             <div class="blogers__name">@zabolotnuygolos</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/skaif_ura/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger2.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">164к <span>followers</span></div>
-             <div class="blogers__name">@skaif_ura</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/the.madaa/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger3.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">58к <span>followers</span></div>
-             <div class="blogers__name">@the.madaa</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/lusuy.channel/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger4.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">150к <span>followers</span></div>
-             <div class="blogers__name">@lusuy.channel</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/naz_kamaz/?igshid=YmMyMTA2M2Y=" target="_blank"
-           class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger5.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">200к <span>followers</span></div>
-             <div class="blogers__name">@naz_kamaz</div>
-           </div>
-         </a>
-         <a href="https://www.instagram.com/zabolotnuygolos/" target="_blank" class="blogers__box gsap__blogers">
-           <div class="blogers__img">
-             <img src="img/bloger10.webp" alt="@skaif_ura">
-           </div>
-           <div class="blogers__downline">
-             <div class="blogers__followers">66к <span>followers</span></div>
-             <div class="blogers__name">@zabolotnuygolos</div>
-           </div>
-         </a>
+        {{  range .Params.blogers.card }}
+          <a href="{{ .url }}" target="_blank"
+              class="blogers__box gsap__blogers">
+              <div class="blogers__img">
+                <img src="{{ .image }}" alt="{{ .link }}">
+              </div>
+              <div class="blogers__downline">
+                <div class="blogers__followers">{{ .folowers }}</div>
+                <div class="blogers__name">@{{ .link }}</div>
+              </div>
+           </a>
+          {{ end }}
          <div class="blogers__box blogers__box--btn gsap__blogers-btn">
            <a id="load-more-btn" class="blogers__show-more">
              ПОКАЗАТИ ЩЕ

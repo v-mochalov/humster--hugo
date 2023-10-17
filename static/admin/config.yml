@@ -26,16 +26,21 @@ collections:
         label: Footer menu
         name: footer_menu
         fields:
-          - label: Nav items
-            name: nav_items
-            widget: list
-            fields:
-              - label: Label
-                name: label
-                widget: string
-              - label: Path
-                name: path
-                widget: string
+          - label: Telegram
+            name: telegram
+            widget: string
+          - label: E-mail
+            name: mail
+            widget: string
+          - label: Instagram
+            name: insta
+            widget: string
+          - label: Phone
+            name: phone
+            widget: string
+          - label: Remark
+            name: remark
+            widget: string
   - name: blog
     label: Blog
     folder: content/blog
@@ -193,35 +198,71 @@ collections:
                   - label: Country
                     name: country
                     widget: string
+          - label: Blogers
+            name: blogers
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string 
+              - label: Hashtag
+                name: hashtag
+                widget: list
+                fields:
+                  - label: Text
+                    name: text
+                    widget: string
+              - label: Card
+                name: card
+                widget: list
+                fields:
+                  - label: URL
+                    name: url
+                    widget: string
+                  - label: Image
+                    name: image
+                    widget: image
+                  - label: Folowers
+                    name: folowers
+                    widget: string
+                  - label: Link
+                    name: link
+                    widget: string       
+          - label: Mobile
+            name: mobile
+            widget: object
+            fields:
+              - label: Image 1
+                name: image1
+                widget: image
+              - label: Image 2
+                name: image2
+                widget: image
+              - label: Image 3
+                name: image3
+                widget: image
           - label: Form
             name: form
             widget: object
             fields:
-              - label: Upline
-                name: uptitle
-                widget: string
-                required: false
               - label: Title
                 name: title
                 widget: string
-              - label: Text
-                name: text
+              - label: E-mail
+                name: email
                 widget: string
-              - label: Mail
-                name: mail
+              - label: Text 1
+                name: text1
                 widget: string
               - label: First name
                 name: first_name
                 widget: string
-              - label: Last Name
-                name: last_name
+              - label: Text 2
+                name: text2
                 widget: string
-              - label: Telegram
-                name: telegram
+              - label: Text (Big)
+                name: text3
                 widget: string
-              - label: Message
-                name: message
-                widget: string
-              - label: Button Text
-                name: btn_text
+              - label: Button text
+                name: button
                 widget: string

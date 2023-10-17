@@ -162,14 +162,66 @@ sliders:
         paragraph:
           - text: Міжнародна букмекерська компанія в Європі зі штаб-квартирою в Лімасолі, Кіпр, заснована в 1994 році.
           - text: Підбір лідерів думок / розробка / продакшн та промоушн контенту
+blogers:
+  title: БЛОГЕРИ
+  hashtag:
+    - text: лідеридумок
+    - text: лайфстайл
+    - text: інстаграм
+  card:
+    - url: https://instagram.com/hatebloggers?igshid=YmMyMTA2M2Y=
+      image: /img/bloger1.webp
+      folowers: 140к
+      link: hatebloggers
+    - url: https://www.instagram.com/sergiy.bunda/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger6.webp
+      folowers: 164к
+      link: sergiy.bunda
+    - url: https://www.instagram.com/pashalimbleat/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger7.webp
+      folowers: 365к
+      link: pashalimbleat
+    - url: https://www.instagram.com/meshtiish/?igshid=YmMyMTA2M2Y%3D
+      image: /img/bloger9.webp
+      folowers: 70к
+      link: meshtiish
+    - url: https://www.instagram.com/andrey.martynenko/
+      image: /img/bloger8.webp
+      folowers: 407к
+      link: andrey.martynenko
+    - url: https://www.instagram.com/zabolotnuygolos/
+      image: /img/bloger10.webp
+      folowers: 66к
+      link: zabolotnuygolos
+    - url: https://www.instagram.com/skaif_ura/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger2.webp
+      folowers: 164к
+      link: skaif_ura
+    - url: https://www.instagram.com/the.madaa/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger3.webp
+      folowers: 58к
+      link: the.madaa
+    - url: https://www.instagram.com/lusuy.channel/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger4.webp
+      folowers: 150к
+      link: lusuy.channel
+    - url: https://www.instagram.com/naz_kamaz/?igshid=YmMyMTA2M2Y=
+      image: /img/bloger5.webp
+      folowers: 200к
+      link: naz_kamaz
+    - url: https://www.instagram.com/zabolotnuygolos/
+      image: /img/bloger10.webp
+      folowers: 66к
+      link: zabolotnuygolos
+mobile:
+  image1: /img/100mill2.png
+  image2: /img/100mill3.png
+  image3: /img/100mill1.png
 form:
-  telegram: Telegram
-  message: Message
-  text: Let's craft your meta world together
-  upline: Meta PR
-  btn_text: Send
-  last_name: Last Name
-  mail: info@metapr.agency
-  title: Your PR Partner for Gaming, AI & Crypto
-  first_name: First Name
+  title: попрацюємо?
+  email: SAMBRERO@GMAIL.COM
+  text1: Телефон
+  text2: Посилання на проект
+  text3: Додаткове повідомлення
+  button: ЗВ’ЯЗАТИСЬ
 ---

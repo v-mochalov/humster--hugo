@@ -565,11 +565,13 @@ h3 {
       padding-bottom: 586px; } }
   .intro__wrapper {
     position: relative; }
-  .intro__title span {
-    text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1px #00FF00;
-    opacity: 1; }
+  .intro__title {
+    text-transform: uppercase; }
+    .intro__title span {
+      text-transform: uppercase;
+      color: transparent;
+      -webkit-text-stroke: 1px #00FF00;
+      opacity: 1; }
   .intro__subtitle {
     font-family: 'Montserrat';
     font-style: normal;
