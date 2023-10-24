@@ -164,6 +164,15 @@
 }
 
 
+.more {
+    color: #fff;
+    .blog__box{
+        border: 1px solid #fff;
+    }    
+    a{
+        color: #fff;
+    }
+}
 .releases{
     color: #fff;
     .blog__box{
@@ -193,7 +202,8 @@
 
         }
     }
-    h2{
+    h3{
+        margin-top: 48px;
         font-weight: 700;
         font-size: 20px;
         line-height: 25px;

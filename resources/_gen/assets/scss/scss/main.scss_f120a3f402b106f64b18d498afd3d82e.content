@@ -1303,6 +1303,13 @@ h3 {
       width: 100%;
       height: 100%; }
 
+.more {
+  color: #fff; }
+  .more .blog__box {
+    border: 1px solid #fff; }
+  .more a {
+    color: #fff; }
+
 .releases {
   color: #fff; }
   .releases .blog__box {
@@ -1326,7 +1333,8 @@ h3 {
     .full-releases p strong {
       font-weight: bold;
       color: rgba(255, 255, 255, 0.7); }
-  .full-releases h2 {
+  .full-releases h3 {
+    margin-top: 48px;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
