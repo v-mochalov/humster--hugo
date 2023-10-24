@@ -163,6 +163,10 @@
     }
 }
 
+.blog{
+    background-image: url("/img/footbg.png");
+    background-size: contain;
+}
 .releases{
     color: #fff;
     .blog__box{
@@ -177,12 +181,37 @@
 }
 .full-releases{
     color: #fff;
+    background-image: url("/img/footbg.png");
+    background-size: contain;
+    p{
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: rgba(255, 255, 255, 0.6);;
+        strong{
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.7);;
+
+        }
+    }
+    h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }
 .full-releases__title{
     padding-top: 60px;
+    font-size: 40px;
 }
 .full-releases__img{
-    margin: 0 10px;
+    @include md-d{
+        margin: 0 10px;
+    }
     img{
         margin-top: 30px;
 
@@ -192,8 +221,7 @@
     margin-top: 30px;
     padding-bottom: 0px;
     p{
-        margin-top: 30px;
-        line-height: 20px;
+        margin-top: 16px;
     }
     ol{
         margin-top: 15px;
