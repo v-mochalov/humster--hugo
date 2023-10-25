@@ -34,7 +34,7 @@
             font-size:  36px;
         }
         @include sm-d {
-            margin-bottom: 30px;
+            margin-bottom: 0px;
         }
     }
     &__wrapper {
@@ -42,9 +42,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @include xxl-d{
+            justify-content: center;
+        }
         @include md-d {
             flex-wrap: wrap;
             justify-content: center;
+            padding-top: 0;
         }
     }
     &__box {
@@ -61,13 +65,19 @@
             margin-right: 0;
         }
         @include md-d {
-            margin-top: 5px;
+            margin-top: 24px;
             &:first-child {
                 margin-top: 30px;
             }
         }
         @include sm-d {
-            margin-right: 0;
+            min-width: 100%;
+        max-width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+        &:last-child {
+            margin-right: 8px;
+        }
         }
     }
     &__img {
@@ -214,10 +224,13 @@
 .full-releases__title{
     padding-top: 60px;
     font-size: 40px;
+    @include md-d{
+        font-size: 30px;
+    }
 }
 .full-releases__img{
     @include md-d{
-        margin: 0 10px;
+        
     }
     img{
         margin-top: 30px;
