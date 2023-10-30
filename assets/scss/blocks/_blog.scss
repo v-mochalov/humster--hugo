@@ -1,7 +1,13 @@
 .blog {
     padding-top: 60px;
     position: relative;
-    
+    .footer{
+        margin-top: 40px;
+        div{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
     &__bg {
         background: url("/img/greenbg.webp");
         background-size: contain;

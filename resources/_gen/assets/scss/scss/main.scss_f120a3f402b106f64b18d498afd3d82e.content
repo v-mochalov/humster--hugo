@@ -1166,6 +1166,11 @@ h3 {
 .blog {
   padding-top: 60px;
   position: relative; }
+  .blog .footer {
+    margin-top: 40px; }
+    .blog .footer div {
+      opacity: 1;
+      transform: scale(1); }
   .blog__bg {
     background: url("/img/greenbg.webp");
     background-size: contain;
