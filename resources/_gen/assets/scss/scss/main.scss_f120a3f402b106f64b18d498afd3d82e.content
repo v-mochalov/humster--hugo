@@ -1357,8 +1357,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: uppercase;
-    margin-top: 48px; }
+    text-transform: uppercase; }
   .full-releases h2 {
     color: #FFF;
     font-size: 20px;
@@ -1409,7 +1408,7 @@ h3 {
         opacity: 1; }
 
 .full-releases__title {
-  padding-top: 60px;
+  padding-top: 80px;
   font-size: 40px; }
   @media only screen and (max-width: 767px) {
     .full-releases__title {
