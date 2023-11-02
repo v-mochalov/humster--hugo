@@ -248,6 +248,7 @@
         text-transform: uppercase;
     }
     ul{
+        margin-top: 16px;
         li{
             list-style-type: none;
             color: #FFF;
@@ -258,7 +259,7 @@
             line-height: 24px; /* 150% */
             opacity: 0.6;
             position: relative;
-            padding-left: 15px;
+            padding-left: 20px;
             &::before{
                 content: '';
                 background-color: #FFF;
@@ -268,7 +269,7 @@
                 opacity: 0.6;
                 position: absolute;
                 left: 5px;
-                top: 50%;
+                top: 11px;
                 transform: translateY(-50%);
 
             }

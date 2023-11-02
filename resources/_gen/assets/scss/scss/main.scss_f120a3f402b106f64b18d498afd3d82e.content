@@ -1375,36 +1375,38 @@ h3 {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase; }
-  .full-releases ul li {
-    list-style-type: none;
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    opacity: 0.6;
-    position: relative;
-    padding-left: 15px; }
-    .full-releases ul li::before {
-      content: '';
-      background-color: #FFF;
-      width: 4px;
-      height: 4px;
-      border-radius: 50%;
-      opacity: 0.6;
-      position: absolute;
-      left: 5px;
-      top: 50%;
-      transform: translateY(-50%); }
-    .full-releases ul li strong {
+  .full-releases ul {
+    margin-top: 16px; }
+    .full-releases ul li {
+      list-style-type: none;
       color: #FFF;
+      font-family: 'Montserrat';
       font-size: 16px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 24px;
-      opacity: 1; }
+      /* 150% */
+      opacity: 0.6;
+      position: relative;
+      padding-left: 20px; }
+      .full-releases ul li::before {
+        content: '';
+        background-color: #FFF;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        opacity: 0.6;
+        position: absolute;
+        left: 5px;
+        top: 11px;
+        transform: translateY(-50%); }
+      .full-releases ul li strong {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        opacity: 1; }
 
 .full-releases__title {
   padding-top: 60px;
