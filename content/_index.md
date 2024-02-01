@@ -4,7 +4,7 @@ seoTitle: Hustler Digital
 seoDescription: Hustler Digital
 seoThumbnail: img/logo.png
 intro:
-  title: НЕ ЖЕНИСЬ <br> ЗА ТРЕНДАМИ <br> <span>- СТВОРЮЙ ЇХ! </span>
+  title: НЕ ЖЕНИСЬ <br> ЗА ТРЕНДАМИ <br> <span>-MOLODEC! </span>
   subtitle: Послуги онлайн просування, розробки<br> та запровадження стратегії
     онлайн-маркетингу
   btn_text: ЗB’ЯЗАТИСЬ
@@ -20,16 +20,22 @@ numbers:
       text: Рекламних кампаній запущено цього року
 video:
   paragraph:
-    - text: У 2021 році кілька менеджерів та медіабаєрів запустили машину зі створення та просування контенту. Так виник HUSTLER — креативне агентство fullstack просування.
-    - text: За останні роки ми організували понад 1000 інтеграцій у блогерів різного рівня, реалізували близько 100 рекламних кампаній, встигли співпрацювати з 30+ гемблінг-проектами, серед яких бренди зі світовим ім'ям.
-    - text: Звертаючись до нас, ви отримуєте не просто підрядника у вигляді агентства, а виділену in-house команду на аутсорсі з низкою переваг.
-    - text: >-
-            Основними напрямками агентства є: influence marketing, брендинг,
-             арбітраж трафіку, виробництво та просування контенту.
+    - text: У 2021 році кілька менеджерів та медіабаєрів запустили машину зі створення
+        та просування контенту. Так виник HUSTLER — креативне агентство
+        fullstack просування.
+    - text: За останні роки ми організували понад 1000 інтеграцій у блогерів різного
+        рівня, реалізували близько 100 рекламних кампаній, встигли співпрацювати
+        з 30+ гемблінг-проектами, серед яких бренди зі світовим ім'ям.
+    - text: Звертаючись до нас, ви отримуєте не просто підрядника у вигляді агентства,
+        а виділену in-house команду на аутсорсі з низкою переваг.
+    - text: |-
+        Основними напрямками агентства є: influence marketing, брендинг,
+         арбітраж трафіку, виробництво та просування контенту.
 services:
   title: ПОСЛУГИ
-  subtitle: ідеальне combo з ефективних інструментів маркетингу, експірієнсу і лідерів думок.
-  hashtag: 
+  subtitle: ідеальне combo з ефективних інструментів маркетингу, експірієнсу і
+    лідерів думок.
+  hashtag:
     - text: маркетинг
     - text: блогери
     - text: стратегія
@@ -64,7 +70,8 @@ services:
     - title: MEDIA BUYING
       paragraph:
         - text: Розміщення реклами на майданчиках із максимальним охопленням ЦА
-        - text: Медіапланування, зрозумілий та швидкий процес закупівлі, аналіз ринку та переговори
+        - text: Медіапланування, зрозумілий та швидкий процес закупівлі, аналіз ринку та
+            переговори
         - text: Зрозуміла аналітика, можливість кастомізувати параметри, оптимізація
         - text: Підготовка матеріалів відповідно до технічних вимог паблішерів
         - text: Підбиття підсумків, звітність, аналіз ефективності
@@ -92,10 +99,11 @@ services:
     - title: АРБІТРАЖ ТРАФІКУ
       paragraph:
         - text: Гарантоване залучення високоякісного трафіку
-        - text:  Вертикаль - гемблінг, беттінг, детинг, крипта, кіберспорт
+        - text: Вертикаль - гемблінг, беттінг, детинг, крипта, кіберспорт
         - text: Джерело - Google, facebook, in-app
         - text: Модель роботи CPA, CPM, CPI
-        - text: Працюємо безпосередньо з рекламодавцями, що дає нам найкращі умови на ринку
+        - text: Працюємо безпосередньо з рекламодавцями, що дає нам найкращі умови на
+            ринку
     - title: AFFILIATE MARKETING
       paragraph:
         - text: Пошук та супровід новий інтернет партнерів
@@ -106,62 +114,70 @@ services:
         - text: Аналітика та звітність
 sliders:
   sliderLeft:
-      - title: FAVBET
-        image: img/favbet.webp
-        paragraph:
-          - text: Українська букмекерська компанія, заснована 1999 року ліцензована Curaçao eGaming License.
-          - text: підбір блогерів, оптова закупівля інтеграцій
-        blogers: <span>100 +</span> Блогерів
-        coverage: <span>10M</span> Охоплення
-        country: Ukraine, Romania, Croatia
-      - title: Gorilla
-        image: img/gorilla.webp
-        paragraph:
-          - text: Молодий букмекер повністю орієнтована на молодіжну аудиторію, який за короткий період часу підірвав медіа простором своїм агресивним маркетингом.
-          - text: продакшн та промоушн контенту
-        blogers: <span>300+</span> блогерів
-        coverage: <span>10M</span> Охоплення
-        country: Ukraine
-      - title: Elslots
-        image: img/elslots.webp
-        paragraph:
-          - text: Онлайн казіно, орієнтоване лише на українських користувачів, розпочало роботу наприкінці 2017 року.
-          - text: підбір блогерів/ продакшн / промоушн контента
-        blogers: <span>100 +</span> Блогерів
-        coverage: <span>30M</span> Охоплення
-        country: Ukraine
-      - title: Aura Vizor
-        image: img/aura.webp
-        paragraph:
-          - text: Соціальна мережа із першою у світі технологією "FACE SHAZAM". Дати вертикаль.
-          - text: розробка/ продакшн / промоушн контента
-        blogers: <span>50+</span> Блогерів
-        coverage: <span>9M</span> Охоплення
-        country: Ukraine
-      - title: 1Win
-        image: img/1win.webp
-        paragraph:
-          - text: Молодий ліцензований майданчик з азартними розвагами ліцензований Curaçao eGaming License.
-          - text: підбір блогерів, оптова закупівля інтеграцій
-        blogers: <span>300 +</span> Блогерів
-        coverage: <span>20M</span> Охоплення
-        country: Latam , India
-      - title: 1xBet
-        image: img/1xbet.webp
-        paragraph:
-          - text: Компанія, що займається азартними онлайн-іграми, ліцензована Curaçao eGaming License.
-          - text: розробка / промо / продакшн
-        blogers: <span>110 +</span> Блогерів
-        coverage: <span>11M</span> Охоплення
-        country: Ukraine
-      - title: PARIMATCH
-        image: img/parimatch.webp
-        blogers: <span>50 +</span> Блогерів
-        coverage: <span>5M</span> Охоплення
-        country: Ukraine
-        paragraph:
-          - text: Міжнародна букмекерська компанія в Європі зі штаб-квартирою в Лімасолі, Кіпр, заснована в 1994 році.
-          - text: Підбір лідерів думок / розробка / продакшн та промоушн контенту
+    - title: FAVBET
+      image: img/favbet.webp
+      paragraph:
+        - text: Українська букмекерська компанія, заснована 1999 року ліцензована Curaçao
+            eGaming License.
+        - text: підбір блогерів, оптова закупівля інтеграцій
+      blogers: <span>100 +</span> Блогерів
+      coverage: <span>10M</span> Охоплення
+      country: Ukraine, Romania, Croatia
+    - title: Gorilla
+      image: img/gorilla.webp
+      paragraph:
+        - text: Молодий букмекер повністю орієнтована на молодіжну аудиторію, який за
+            короткий період часу підірвав медіа простором своїм агресивним
+            маркетингом.
+        - text: продакшн та промоушн контенту
+      blogers: <span>300+</span> блогерів
+      coverage: <span>10M</span> Охоплення
+      country: Ukraine
+    - title: Elslots
+      image: img/elslots.webp
+      paragraph:
+        - text: Онлайн казіно, орієнтоване лише на українських користувачів, розпочало
+            роботу наприкінці 2017 року.
+        - text: підбір блогерів/ продакшн / промоушн контента
+      blogers: <span>100 +</span> Блогерів
+      coverage: <span>30M</span> Охоплення
+      country: Ukraine
+    - title: Aura Vizor
+      image: img/aura.webp
+      paragraph:
+        - text: Соціальна мережа із першою у світі технологією "FACE SHAZAM". Дати
+            вертикаль.
+        - text: розробка/ продакшн / промоушн контента
+      blogers: <span>50+</span> Блогерів
+      coverage: <span>9M</span> Охоплення
+      country: Ukraine
+    - title: 1Win
+      image: img/1win.webp
+      paragraph:
+        - text: Молодий ліцензований майданчик з азартними розвагами ліцензований Curaçao
+            eGaming License.
+        - text: підбір блогерів, оптова закупівля інтеграцій
+      blogers: <span>300 +</span> Блогерів
+      coverage: <span>20M</span> Охоплення
+      country: Latam , India
+    - title: 1xBet
+      image: img/1xbet.webp
+      paragraph:
+        - text: Компанія, що займається азартними онлайн-іграми, ліцензована Curaçao
+            eGaming License.
+        - text: розробка / промо / продакшн
+      blogers: <span>110 +</span> Блогерів
+      coverage: <span>11M</span> Охоплення
+      country: Ukraine
+    - title: PARIMATCH
+      image: img/parimatch.webp
+      blogers: <span>50 +</span> Блогерів
+      coverage: <span>5M</span> Охоплення
+      country: Ukraine
+      paragraph:
+        - text: Міжнародна букмекерська компанія в Європі зі штаб-квартирою в Лімасолі,
+            Кіпр, заснована в 1994 році.
+        - text: Підбір лідерів думок / розробка / продакшн та промоушн контенту
 blogers:
   title: БЛОГЕРИ
   hashtag:
@@ -224,4 +240,5 @@ form:
   text2: Посилання на проект
   text3: Додаткове повідомлення
   button: ЗВ’ЯЗАТИСЬ
+  first_name: Jkjkjk
 ---
