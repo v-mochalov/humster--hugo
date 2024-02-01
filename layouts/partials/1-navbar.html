@@ -45,10 +45,22 @@
         </a>
         <div class="header__right">
           <div class="drop-btn drop-btn--desc">
-            <button class="drop2">UA</button>
-            <div class="content2">
-              <a href="eng.html">ENG</a>
-            </div>
+            <div class="language-switcher">
+              {{ $siteLanguages := site.Languages}}
+                {{ $pageLang := .Page.Lang}}
+                {{- range .Page.AllTranslations }}
+                    {{ $translation := . }}
+                    {{- range sort $siteLanguages "Weight" "asc" }}
+                        {{- if eq $translation.Lang .Lang }}
+                            {{ if eq $pageLang .Lang}}
+                                <a class="flagselect" href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}eng</a>
+                            {{ else }}
+                                <a class="flagnoselect" href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}ua</a>
+                            {{ end }}
+                        {{- end }}
+                    {{- end }}
+                {{- end }}
+          </div>
           </div>
           <div class="burger-menu">
             <a href="" class="burger-menu_button">
