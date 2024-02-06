@@ -313,3 +313,13 @@
 .flagselect{
   display: none;
 }
+.flagnoselect{
+  font-weight: 700;
+    font-size: 17.2516px;
+    line-height: 133.5%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+    transition: 0.3s linear;
+    text-transform: uppercase;
+}
