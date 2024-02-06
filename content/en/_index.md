@@ -113,56 +113,56 @@ sliders:
           - text: UKRAINIAN BETTING COMPANY FOUNDED IN 1999, LICENSED BY CURAÇAO EGAMING LICENSE.
           - text: SELECTION OF BLOGGERS, WHOLESALE PURCHASE OF INTEGRATIONS
         blogers: <span>100 +</span> Bloggers
-        coverage: <span>10M</span> Охоплення
+        coverage: <span>10M</span> Coverage
         country: Ukraine, Romania, Croatia
       - title: Gorilla
         image: img/gorilla.webp
         paragraph:
-          - text: Молодий букмекер повністю орієнтована на молодіжну аудиторію, який за короткий період часу підірвав медіа простором своїм агресивним маркетингом.
-          - text: продакшн та промоушн контенту
+          - text: The young bookmaker is completely focused on the youth audience, which in a short period of time blew up the media space with its aggressive marketing.
+          - text: content production and promotion
         blogers: <span>300+</span> Bloggers
-        coverage: <span>10M</span> Охоплення
+        coverage: <span>10M</span> Coverage
         country: Ukraine
       - title: Elslots
         image: img/elslots.webp
         paragraph:
-          - text: Онлайн казіно, орієнтоване лише на українських користувачів, розпочало роботу наприкінці 2017 року.
-          - text: підбір Bloggers/ продакшн / промоушн контента
+          - text: The online casino, aimed only at Ukrainian users, started working at the end of 2017.
+          - text: підбір Bloggers/ production / content promotion
         blogers: <span>100 +</span> Bloggers
-        coverage: <span>30M</span> Охоплення
+        coverage: <span>30M</span> Coverage
         country: Ukraine
       - title: Aura Vizor
         image: img/aura.webp
         paragraph:
-          - text: Соціальна мережа із першою у світі технологією "FACE SHAZAM". Дати вертикаль.
-          - text: розробка/ продакшн / промоушн контента
+          - text: Social network with the world's first "FACE SHAZAM" technology. Give vertical.
+          - text: development / production / promotion of content
         blogers: <span>50+</span> Bloggers
-        coverage: <span>9M</span> Охоплення
+        coverage: <span>9M</span> Coverage
         country: Ukraine
       - title: 1Win
         image: img/1win.webp
         paragraph:
-          - text: Молодий ліцензований майданчик з азартними розвагами ліцензований Curaçao eGaming License.
-          - text: підбір Bloggers, оптова закупівля інтеграцій
+          - text: The young licensed gambling site is licensed by the Curaçao eGaming License.
+          - text: selection of Bloggers, wholesale purchase of integrations
         blogers: <span>300 +</span> Bloggers
-        coverage: <span>20M</span> Охоплення
+        coverage: <span>20M</span> Coverage
         country: Latam , India
       - title: 1xBet
         image: img/1xbet.webp
         paragraph:
-          - text: Компанія, що займається азартними онлайн-іграми, ліцензована Curaçao eGaming License.
-          - text: розробка / промо / продакшн
+          - text: Online gambling company licensed by Curaçao eGaming License.
+          - text: development / promotion / production
         blogers: <span>110 +</span> Bloggers
-        coverage: <span>11M</span> Охоплення
+        coverage: <span>11M</span> Coverage
         country: Ukraine
       - title: PARIMATCH
         image: img/parimatch.webp
         blogers: <span>50 +</span> Bloggers
-        coverage: <span>5M</span> Охоплення
+        coverage: <span>5M</span> Coverage
         country: Ukraine
         paragraph:
-          - text: Міжнародна букмекерська компанія в Європі зі штаб-квартирою в Лімасолі, Кіпр, заснована в 1994 році.
-          - text: Підбір лідерів думок / розробка / продакшн та промоушн контенту
+          - text: International betting company in Europe with headquarters in Limassol, Cyprus, founded in 1994.
+          - text: Selection of opinion leaders / development / production and promotion of content
 blogers:
   title: BLOGGERS
   hashtag:
