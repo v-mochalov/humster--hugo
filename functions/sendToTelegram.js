@@ -9,8 +9,8 @@ exports.handler = async (event, context) => {
     const phone = params['user_phone'];
     const proj = params['user_project'];
     const info = params['user_info'];
-    const token = '5346944790:AAGRQ1lDwryc9z4cX8LTjGjdFmQBTaxjPwY';
-    const chatId = '-623964129';
+    const token = '6312853358:AAFcZWa-qo4iHs4tmBZZqfXTgoskBp3DhwU';
+    const chatId = '-1001959471654';
 
     // Формируем сообщение
     const message = `
