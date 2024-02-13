@@ -2,7 +2,7 @@
     <div class="container">
       <div class="form__content">
         <h2 class="form__title gsap__form">{{ .Params.form.title }}</h2>
-        <form action="/functions/sendToTelegram.js" method="POST" class="form__main">
+        <form action="/functions/sendToTelegram" method="POST" class="form__main">
           <div class="form__contain">
             <div class="form__left gsap__form">
               <input class="" type="email" name="user_name" required placeholder="{{ .Params.form.email }}" />
