@@ -28,7 +28,7 @@ exports.handler = async (event, context) => {
       hostname: 'api.telegram.org',
       port: 443,
       path: `/bot${token}/sendMessage?chat_id=${chatId}&parse_mode=html&text=${encodedMessage}`,
-      method: 'GET'
+      method: 'POST'
     };
 
     // Отправляем запрос к Telegram API
