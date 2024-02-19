@@ -37,6 +37,23 @@ $(document).ready(function () {
 	});
 
 });
+// FORM_TG
+const TOKEN = "6955013348:AAEfj7LVNUQt9F7W1rn5YITf8MK_nS1JL6I";
+const CHAT_ID = "-1002053483453";
+const URI_API = `https:://api.telegram.org/bot${ TOKEN }/sendMessage`;
+document.getElementById('tg').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    let message = `<b>Заявка с сайта!</b>\n`;
+    message += `<b>Отправитель: </b> ${ this.user_name.value }\n`;
+    message += `<b>Почта: </b> ${ this.user_phone.value }`;
+
+	axios.post(URI_API, {
+		chat_id: CHAT_ID,
+		parse_mode: 'html',
+		text: message
+	})
+});
 
 // SLIDER
 $('.slider__right').slick({
