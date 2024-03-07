@@ -271,9 +271,9 @@ collections:
 i18n:
   structure: multiple_files
   locales:
-    - code: "en"  # Замените объект на строку
+    - code: "en"
       path: "en"
       label: "English"
-    - code: "ua"  # Замените объект на строку
+    - code: "ua" 
       path: "ua"
       label: "Ukranian"
