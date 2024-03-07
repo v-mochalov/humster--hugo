@@ -46,8 +46,8 @@ document.getElementById('tg').addEventListener('submit', function(e) {
 
     let message = `<b>Заявка з сайту!</b>\n`;
     message += `<b>Відправник: </b> ${ this.user_name.value }\n`;
-    message += `<b>Телефон: </b> ${ this.user_phone.value }`;
-	message += `<b>Посилання: </b> ${ this.user_project.value }`;
+    message += `<b>Телефон: </b> ${ this.user_phone.value }\n`;
+	message += `<b>Посилання: </b> ${ this.user_project.value }\n`;
 	message += `<b>Додатково: </b> ${ this.user_info.value }`;
 
 	axios.post(URI_API, {
