@@ -78,7 +78,6 @@ collections:
     editor:
       preview: false
     files:
-      fields:
       - file: content/_index.md
         label: Home Page
         name: home
@@ -267,12 +266,12 @@ collections:
               - label: Button text
                 name: button
                 widget: string
-# i18n:
-#   structure: multiple_files
-#   locales:
-#     - code: "en"
-#       path: "en"
-#       label: "English"
-#     - code: "ua" 
-#       path: "ua"
-#       label: "Ukranian"
+i18n:
+  structure: multiple_files
+  locales:
+    - code: en
+      path: en
+      label: English
+    - code: ua
+      path: ua
+      label: Ukranian
