@@ -79,10 +79,6 @@ collections:
       preview: false
     files:
       fields:
-      - label: "Language"
-        name: "language" 
-        widget: "select"
-        options: ["en", "ua"] 
       - file: content/_index.md
         label: Home Page
         name: home
@@ -275,9 +271,9 @@ collections:
 i18n:
   structure: multiple_files
   locales:
-    - code: en
-      path: en
-      label: English
-    - code: ua
-      path: ua
-      label: Ukranian
+    - code: "en"  # Замените объект на строку
+      path: "en"
+      label: "English"
+    - code: "ua"  # Замените объект на строку
+      path: "ua"
+      label: "Ukranian"
