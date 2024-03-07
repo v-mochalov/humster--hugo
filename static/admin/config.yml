@@ -42,37 +42,6 @@ collections:
             name: remark
             widget: string
   - name: blog
-    label: Blog-UA
-    folder: content/ua/blog
-    editor:
-      preview: false
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: seo Title
-        name: seoTitle
-        widget: string
-        required: false
-      - label: seo Description
-        name: seoDescription
-        widget: string
-        required: false
-      - label: seo Thumbnail
-        name: seoThumbnail
-        widget: image
-        required: false
-      - label: Downline
-        name: downline
-        widget: string
-      - label: Thumbnail
-        name: thumbnail
-        widget: image
-      - label: Body
-        name: body
-        widget: markdown
-  - name: blog
     label: Blog-EN
     folder: content/en/blog
     editor:
