@@ -43,7 +43,7 @@ collections:
             widget: string
   - name: blog
     label: Blog-EN
-    folder: content/en/blog
+    folder: content/blog
     editor:
       preview: false
     create: true
@@ -72,31 +72,38 @@ collections:
       - label: Body
         name: body
         widget: markdown
-
   - name: page
     label: Page
+    i18n:
+      structure: single_file
+      locales: [ua, en]
     editor:
       preview: false
     files:
       - file: content/_index.md
+        i18n: true
         label: Home Page
         name: home
         fields:
           - label: Title
             name: title
             widget: string
+            i18n: true
           - label: seo Title
             name: seoTitle
             widget: string
             required: false
+            i18n: true
           - label: seo Description
             name: seoDescription
             widget: string
             required: false
+            i18n: true
           - label: seo Thumbnail
             name: seoThumbnail
             widget: image
             required: false
+            i18n: true
           - label: Intro
             name: intro
             widget: object
@@ -104,13 +111,16 @@ collections:
               - label: Title
                 name: title
                 widget: string
+                i18n: true
               - label: Subtitle
                 name: subtitle
                 widget: string
                 required: false
+                i18n: true
               - label: Button text
                 name: btn_text
                 widget: string
+                i18n: true
 
           - label: Numbers
             name: numbers
