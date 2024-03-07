@@ -266,12 +266,7 @@ collections:
               - label: Button text
                 name: button
                 widget: string
-# i18n:
-#   structure: multiple_files
-#   locales:
-#     - code: "en"
-#       path: "en"
-#       label: "English"
-#     - code: "ua"
-#       path: "ua"
-#       label: "Ukranian"
+i18n:
+  structure: multiple_folders
+  locales: [ua, en]
+  default_locale: ua
