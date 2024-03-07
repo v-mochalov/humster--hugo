@@ -44,9 +44,11 @@ const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
 document.getElementById('tg').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    let message = `<b>Заявка с сайта!</b>\n`;
-    message += `<b>Отправитель: </b> ${ this.user_name.value }\n`;
-    message += `<b>Почта: </b> ${ this.user_phone.value }`;
+    let message = `<b>Заявка з сайту!</b>\n`;
+    message += `<b>Відправник: </b> ${ this.user_name.value }\n`;
+    message += `<b>Телефон: </b> ${ this.user_phone.value }`;
+	message += `<b>Посилання: </b> ${ this.user_project.value }`;
+	message += `<b>Додатково: </b> ${ this.user_info.value }`;
 
 	axios.post(URI_API, {
 		chat_id: CHAT_ID,

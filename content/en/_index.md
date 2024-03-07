@@ -228,5 +228,5 @@ form:
   text1: Phone
   text2: Project Link
   text3: Additional message
-
+  button: CONTACT
 ---
