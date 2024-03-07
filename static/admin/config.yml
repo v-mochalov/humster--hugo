@@ -267,6 +267,7 @@ collections:
                 name: button
                 widget: string
 i18n:
+  structure: multiple_files
   locales:
     - "en"
     - "ua"
