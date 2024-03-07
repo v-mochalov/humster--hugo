@@ -269,5 +269,9 @@ collections:
 i18n:
   structure: multiple_files
   locales:
-    - "en"
-    - "ua"
+    - code: "en"
+      path: "en"
+      label: "English"
+    - code: "fr"
+      path: "fr"
+      label: "French"
