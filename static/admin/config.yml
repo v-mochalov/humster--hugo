@@ -48,6 +48,10 @@ collections:
       preview: false
     create: true
     fields:
+      - label: "Language"
+        name: "language" 
+        widget: "select"
+        options: ["en", "fr"] 
       - label: Title
         name: title
         widget: string
@@ -78,6 +82,11 @@ collections:
     editor:
       preview: false
     files:
+      fields:
+      - label: "Language"
+        name: "language" 
+        widget: "select"
+        options: ["en", "fr"] 
       - file: content/_index.md
         label: Home Page
         name: home
