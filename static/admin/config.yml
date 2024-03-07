@@ -267,11 +267,6 @@ collections:
                 name: button
                 widget: string
 i18n:
-  structure: multiple_files
   locales:
-    - code: 'en'
-      path: 'en'
-      label: 'English'
-    - code: 'ua'
-      path: 'ua'
-      label: 'Ukranian'
+    - "en"
+    - "ua"
