@@ -1,0 +1,14 @@
+nav_items:
+  - label: ABOUT
+    path: "#video"
+  - label: ПОСЛУГИ
+    path: "#services"
+  - label: КЕЙСИ
+    path: "#sliderKeys"
+  - label: БЛОГЕРИ
+    path: "#blogers"
+  - label: КОНТАКТИ
+    path: "#form"
+  - label: НОВИНИ
+    path: "#news"
+

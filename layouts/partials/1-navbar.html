@@ -70,10 +70,14 @@
               <div class="header__img">
                 <img src="/img/vertical.webp" alt="arrow">
               </div>
-              {{ range .Site.Data.settings.main_menu.nav_items }}
+              {{ $menu := .Site.Data.settings.main_menu }}
+              {{ range $menu.nav_items }}
                   <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
               {{ end }}
               
+              <!-- {{ range .Site.Data.settings.main_menu_en.nav_items }}
+                  <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
+              {{ end }} -->
               <div class="drop-btn drop-btn--mobile">
                 <div class="language-switcher">
                   <!-- {{ $siteLanguages := site.Languages}}
