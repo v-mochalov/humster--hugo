@@ -269,9 +269,9 @@ collections:
 i18n:
   structure: multiple_files
   locales:
-    - code: en
-      path: en
-      label: English
-    - code: ua
-      path: ua
-      label: Ukranian
+    - code: 'en'
+      path: 'en'
+      label: 'English'
+    - code: 'ua'
+      path: 'ua'
+      label: 'Ukranian'
