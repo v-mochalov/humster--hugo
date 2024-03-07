@@ -48,10 +48,6 @@ collections:
       preview: false
     create: true
     fields:
-      - label: "Language"
-        name: "language" 
-        widget: "select"
-        options: ["en", "fr"] 
       - label: Title
         name: title
         widget: string
@@ -86,7 +82,7 @@ collections:
       - label: "Language"
         name: "language" 
         widget: "select"
-        options: ["en", "fr"] 
+        options: ["en", "ua"] 
       - file: content/_index.md
         label: Home Page
         name: home
@@ -275,3 +271,13 @@ collections:
               - label: Button text
                 name: button
                 widget: string
+
+i18n:
+  structure: multiple_files
+  locales:
+    - code: en
+      path: en
+      label: English
+    - code: ua
+      path: ua
+      label: Ukranian
