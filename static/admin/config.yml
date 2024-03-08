@@ -42,9 +42,7 @@ collections:
             name: remark
             widget: string
   - name: blog
-    i18n:
-      structure: multiple_folders
-      locales: [ua, en]
+    i18n: true
     label: Blog-EN
     folder: content/blog
     editor:
