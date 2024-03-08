@@ -54,27 +54,37 @@ collections:
       - label: Title
         name: title
         widget: string
+        i18n: true
       - label: seo Title
         name: seoTitle
         widget: string
         required: false
+        i18n: true
       - label: seo Description
         name: seoDescription
         widget: string
         required: false
+        i18n: true
       - label: seo Thumbnail
         name: seoThumbnail
         widget: image
         required: false
+        i18n: duplicate
       - label: Downline
         name: downline
         widget: string
+        required: false
+        i18n: true
       - label: Thumbnail
         name: thumbnail
         widget: image
+        required: false
+        i18n: duplicate
       - label: Body
         name: body
         widget: markdown
+        required: false
+        i18n: true
   - name: page
     label: Page
     i18n:
