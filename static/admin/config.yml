@@ -282,6 +282,6 @@ collections:
             name: button
             widget: string
 i18n:
-  structure: multiple_folders
+  structure: multiple_files
   locales: [ua, en]
   default_locale: ua
