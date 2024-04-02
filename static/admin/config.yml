@@ -85,72 +85,97 @@ collections:
         i18n: true
   - name: page
     label: Page
-    i18n:
-      structure: multiple_files
-      locales: [ua, en]
+    folder: content
+    i18n: true
     editor:
       preview: false
-    files:
-      - file: content
+    - fields: 
+      - label: Title
+        name: title
+        widget: string
         i18n: true
-        label: Home Page
-        name: home
+      - label: seo Title
+        name: seoTitle
+        widget: string
+        required: false
+        i18n: true
+      - label: seo Description
+        name: seoDescription
+        widget: string
+        required: false
+        i18n: true
+      - label: seo Thumbnail
+        name: seoThumbnail
+        widget: image
+        required: false
+        i18n: true
+      - label: Intro
+        name: intro
+        widget: object
         fields:
           - label: Title
             name: title
             widget: string
             i18n: true
-          - label: seo Title
-            name: seoTitle
+          - label: Subtitle
+            name: subtitle
             widget: string
             required: false
             i18n: true
-          - label: seo Description
-            name: seoDescription
+          - label: Button text
+            name: btn_text
             widget: string
-            required: false
             i18n: true
-          - label: seo Thumbnail
-            name: seoThumbnail
-            widget: image
-            required: false
-            i18n: true
-          - label: Intro
-            name: intro
-            widget: object
+
+      - label: Numbers
+        name: numbers
+        widget: object
+        fields:
+          - label: Box
+            name: box
+            widget: list
+            fields:
+              - label: Number
+                name: number
+                widget: string
+              - label: Text
+                name: text
+                widget: string
+      - label: Video
+        name: video
+        widget: object
+        fields:
+          - label: Paragraph
+            name: paragraph
+            widget: list
+            fields:
+              - label: Text
+                name: text
+                widget: string
+      - label: Services
+        name: services
+        widget: object
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Subtitle
+            name: subtitle
+            widget: string
+          - label: Hashtag
+            name: hashtag
+            widget: list
+            fields:
+              - label: Text
+                name: text
+                widget: string
+          - label: Accordion
+            name: accordion
+            widget: list
             fields:
               - label: Title
                 name: title
                 widget: string
-                i18n: true
-              - label: Subtitle
-                name: subtitle
-                widget: string
-                required: false
-                i18n: true
-              - label: Button text
-                name: btn_text
-                widget: string
-                i18n: true
-
-          - label: Numbers
-            name: numbers
-            widget: object
-            fields:
-              - label: Box
-                name: box
-                widget: list
-                fields:
-                  - label: Number
-                    name: number
-                    widget: string
-                  - label: Text
-                    name: text
-                    widget: string
-          - label: Video
-            name: video
-            widget: object
-            fields:
               - label: Paragraph
                 name: paragraph
                 widget: list
@@ -158,135 +183,104 @@ collections:
                   - label: Text
                     name: text
                     widget: string
-          - label: Services
-            name: services
-            widget: object
+      - label: Slider
+        name: sliders
+        widget: object
+        fields:
+          - label: Slider Left
+            name: sliderLeft
+            widget: list
             fields:
               - label: Title
                 name: title
                 widget: string
-              - label: Subtitle
-                name: subtitle
-                widget: string
-              - label: Hashtag
-                name: hashtag
+              - label: Image
+                name: image
+                widget: image  
+              - label: Paragraph
+                name: paragraph
                 widget: list
                 fields:
                   - label: Text
                     name: text
-                    widget: string
-              - label: Accordion
-                name: accordion
-                widget: list
-                fields:
-                  - label: Title
-                    name: title
-                    widget: string
-                  - label: Paragraph
-                    name: paragraph
-                    widget: list
-                    fields:
-                      - label: Text
-                        name: text
-                        widget: string
-          - label: Slider
-            name: sliders
-            widget: object
+                    widget: string                
+              - label: Blogers
+                name: blogers
+                widget: string
+              - label: Coverage
+                name: coverage
+                widget: string
+              - label: Country
+                name: country
+                widget: string
+      - label: Blogers
+        name: blogers
+        widget: object
+        fields:
+          - label: Title
+            name: title
+            widget: string 
+          - label: Hashtag
+            name: hashtag
+            widget: list
             fields:
-              - label: Slider Left
-                name: sliderLeft
-                widget: list
-                fields:
-                  - label: Title
-                    name: title
-                    widget: string
-                  - label: Image
-                    name: image
-                    widget: image  
-                  - label: Paragraph
-                    name: paragraph
-                    widget: list
-                    fields:
-                      - label: Text
-                        name: text
-                        widget: string                
-                  - label: Blogers
-                    name: blogers
-                    widget: string
-                  - label: Coverage
-                    name: coverage
-                    widget: string
-                  - label: Country
-                    name: country
-                    widget: string
-          - label: Blogers
-            name: blogers
-            widget: object
+              - label: Text
+                name: text
+                widget: string
+          - label: Card
+            name: card
+            widget: list
             fields:
-              - label: Title
-                name: title
-                widget: string 
-              - label: Hashtag
-                name: hashtag
-                widget: list
-                fields:
-                  - label: Text
-                    name: text
-                    widget: string
-              - label: Card
-                name: card
-                widget: list
-                fields:
-                  - label: URL
-                    name: url
-                    widget: string
-                  - label: Image
-                    name: image
-                    widget: image
-                  - label: Folowers
-                    name: folowers
-                    widget: string
-                  - label: Link
-                    name: link
-                    widget: string       
-          - label: Mobile
-            name: mobile
-            widget: object
-            fields:
-              - label: Image 1
-                name: image1
+              - label: URL
+                name: url
+                widget: string
+              - label: Image
+                name: image
                 widget: image
-              - label: Image 2
-                name: image2
-                widget: image
-              - label: Image 3
-                name: image3
-                widget: image
-          - label: Form
-            name: form
-            widget: object
-            fields:
-              - label: Title
-                name: title
+              - label: Folowers
+                name: folowers
                 widget: string
-              - label: E-mail
-                name: email
-                widget: string
-              - label: Text 1
-                name: text1
-                widget: string
-              - label: First name
-                name: first_name
-                widget: string
-              - label: Text 2
-                name: text2
-                widget: string
-              - label: Text (Big)
-                name: text3
-                widget: string
-              - label: Button text
-                name: button
-                widget: string
+              - label: Link
+                name: link
+                widget: string       
+      - label: Mobile
+        name: mobile
+        widget: object
+        fields:
+          - label: Image 1
+            name: image1
+            widget: image
+          - label: Image 2
+            name: image2
+            widget: image
+          - label: Image 3
+            name: image3
+            widget: image
+      - label: Form
+        name: form
+        widget: object
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: E-mail
+            name: email
+            widget: string
+          - label: Text 1
+            name: text1
+            widget: string
+          - label: First name
+            name: first_name
+            widget: string
+          - label: Text 2
+            name: text2
+            widget: string
+          - label: Text (Big)
+            name: text3
+            widget: string
+          - label: Button text
+            name: button
+            widget: string
 i18n:
   structure: multiple_folders
   locales: [ua, en]
