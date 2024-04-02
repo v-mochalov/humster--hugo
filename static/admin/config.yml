@@ -89,7 +89,7 @@ collections:
     i18n: true
     editor:
       preview: false
-    - fields: 
+    fields: 
       - label: Title
         name: title
         widget: string
