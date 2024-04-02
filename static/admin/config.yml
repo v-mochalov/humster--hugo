@@ -43,8 +43,8 @@ collections:
             widget: string
   - name: blog
     i18n: true
-    label: Blog-EN
-    folder: content/{{locale}}/blog
+    label: Blog
+    folder: content/blog
     editor:
       preview: false
     create: true
@@ -86,12 +86,12 @@ collections:
   - name: page
     label: Page
     i18n:
-      structure: single_file
+      structure: multiple_files
       locales: [ua, en]
     editor:
       preview: false
     files:
-      - file: content/_index.md
+      - file: content
         i18n: true
         label: Home Page
         name: home
