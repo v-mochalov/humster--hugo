@@ -6,13 +6,11 @@ defaultContentLanguage = "ua"
     weight = 1
     languageName = "UA"
     title = "Meine Hugo-Seite"
-    contentDir = 'content/ua'
     # Другие настройки для немецкого
   [languages.en]
     weight = 2
     languageName = "ENG"
     title = "My Hugo Site"
-    contentDir = 'content/en'
     # Другие настройки для английского
 
   
