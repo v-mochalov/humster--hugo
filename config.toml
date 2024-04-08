@@ -1,12 +1,13 @@
 baseurl = "/"
 defaultContentLanguage = "ua"
+enableRobotsTXT = true
 
 [languages]
   [languages.ua]
     weight = 1
     languageName = "UA"
     title = "Meine Hugo-Seite"
-    # Другие настройки для немецкого
+    # Другие настройки для украинского
   [languages.en]
     weight = 2
     languageName = "ENG"

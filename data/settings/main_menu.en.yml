@@ -1,3 +1,10 @@
+# main_menu.en.yml
+nav_items:
+  home: Home
+  about: About
+  services: Services
+  contact: Contact
+
 nav_items:
   - label: ABOUT
     path: "#video"

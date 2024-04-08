@@ -1,4 +1,12 @@
 nav_items:
+  home: Головна
+  about: Про нас
+  services: Послуги
+  contact: Контакти
+
+
+
+nav_items:
   - label: ПРО НАС
     path: "#video"
   - label: ПОСЛУГИ

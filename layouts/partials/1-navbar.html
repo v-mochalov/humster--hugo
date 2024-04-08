@@ -1,7 +1,7 @@
 <header id="header" class="header gsap__header">
     <div>
       <div class="header__wrapper">
-        <a href="/" class="header__logo">
+        <a href="/{{ .Site.Language.Lang }}/" class="header__logo">
           <svg width="252" height="33" viewBox="0 0 252 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M245.52 32.8395H129.089L134.955 0H251.386L245.52 32.8395Z"
               fill="#0D2DFF" />
@@ -70,10 +70,20 @@
               <div class="header__img">
                 <img src="/img/vertical.webp" alt="arrow">
               </div>
-              {{ $menu := .Site.Data.settings.main_menu }}
+
+              {{ range .Site.Data.settings.main_menu.nav_items }}
+              <li><a href="{{ .path }}">{{ .label }}</a></li>
+              {{ end }}
+              <ul>
+                <li><a href="/{{ .Site.Language.Lang }}/">{{ .Site.Data.settings.main_menu.nav_items.home }}</a></li>
+                <li><a href="/{{ .Site.Language.Lang }}/about">{{ .Site.Data.settings.main_menu.nav_items.about }}</a></li>
+                <li><a href="/{{ .Site.Language.Lang }}/services">{{ .Site.Data.settings.main_menu.nav_items.services }}</a></li>
+                <li><a href="/{{ .Site.Language.Lang }}/contact">{{ .Site.Data.settings.main_menu.nav_items.contact }}</a></li>
+              </ul>
+              <!-- {{ $menu := .Site.Data.settings.main_menu }}
               {{ range $menu.nav_items }}
                   <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
-              {{ end }}
+              {{ end }} -->
               
               <!-- {{ range .Site.Data.settings.main_menu_en.nav_items }}
                   <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
