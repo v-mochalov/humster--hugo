@@ -9,6 +9,9 @@ collections:
       preview: false
     files:
       - file: data/settings/main_menu.yml
+        i18n: true
+        editor:
+          preview: false
         label: Header Menu
         name: main_menu
         fields:
