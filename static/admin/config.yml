@@ -18,13 +18,16 @@ collections:
           - label: Nav items
             name: nav_items
             widget: list
+            i18n: true
             fields:
               - label: Label
                 name: label
                 widget: string
+                i18n: true
               - label: Path
                 name: path
                 widget: string
+                i18n: true
       - file: data/settings/footer_menu.yml
         label: Footer menu
         name: footer_menu
