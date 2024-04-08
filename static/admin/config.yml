@@ -8,7 +8,7 @@ collections:
     editor:
       preview: false
     files:
-      - file: data/settings/main_menu.yml
+      - file: data/settings/main_menu
         i18n: true
         editor:
           preview: false
@@ -28,7 +28,7 @@ collections:
                 name: path
                 widget: string
                 i18n: true
-      - file: data/settings/footer_menu.yml
+      - file: data/settings/footer_menu
         label: Footer menu
         name: footer_menu
         fields:
