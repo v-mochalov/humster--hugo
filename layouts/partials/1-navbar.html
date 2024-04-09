@@ -80,10 +80,10 @@
                 <li><a href="/{{ .Site.Language.Lang }}/services">{{ .Site.Data.settings.main_menu.nav_items.services }}</a></li>
                 <li><a href="/{{ .Site.Language.Lang }}/contact">{{ .Site.Data.settings.main_menu.nav_items.contact }}</a></li>
               </ul>
-              <!-- {{ $menu := .Site.Data.settings.main_menu }}
+              {{ $menu := .Site.Data.settings.main_menu.nav_items }}
               {{ range $menu.nav_items }}
                   <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
-              {{ end }} -->
+              {{ end }}
               
               <!-- {{ range .Site.Data.settings.main_menu_en.nav_items }}
                   <a href="{{ .path }}" class="burger-menu_link">{{ .label }}</a>
