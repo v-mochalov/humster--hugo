@@ -1,40 +1,44 @@
 </main>
 <footer class="footer">
-   <div class="container">
-     <div class="footer__upline">
-       <div class="footer__contain">
-         <div class="footer__contacts gsap__footer">
-           <img src="/img/icon1.png" alt="statuya">
-           <a href="{{ .Site.Data.settings.footer_menu.telegram }}" target="_blank">@hustleragency</a>
+  <div class="container">
+    <div class="footer__upline">
+      <div class="footer__contain">
+        <div class="footer__contacts gsap__footer">
+          <img src="/img/icon1.png" alt="statuya">
+          <a href="{{ .Site.Params.footer.telegram }}" target="_blank">@hustleragency</a>
 
-         </div>
-         <div class="footer__contacts gsap__footer">
-           <img src="/img/icon2.png" alt="statuya">
-           <a href="mailto:{{ .Site.Data.settings.footer_menu.mail }}">{{ .Site.Data.settings.footer_menu.mail }}</a>
+        </div>
+        <div class="footer__contacts gsap__footer">
+          <img src="/img/icon2.png" alt="statuya">
+          <a href="mailto:{{ .Site.Params.footer.mail }}">{{ .Site.Params.footer.mail }}</a>
 
-         </div>
-         <div class="footer__contacts gsap__footer">
-           <img src="/img/icon3.png" alt="statuya">
-           <a href="{{ .Site.Data.settings.footer_menu.insta }}" target="_blank">@hustleragency</a>
+        </div>
+        <div class="footer__contacts gsap__footer">
+          <img src="/img/icon3.png" alt="statuya">
+          <a href="{{ .Site.Params.footer.insta }}" target="_blank">@hustleragency</a>
 
-         </div>
-         <div class="footer__contacts gsap__footer">
-           <img src="/img/icon4.png" alt="statuya">
-           <a href="tel:{{ .Site.Data.settings.footer_menu.phone }}">{{ .Site.Data.settings.footer_menu.phone }}</a>
+        </div>
+        <div class="footer__contacts gsap__footer">
+          <img src="/img/icon4.png" alt="statuya">
+          <a href="tel:{{ .Site.Params.footer.phone }}">{{ .Site.Params.footer.phone }}</a>
 
-         </div>
-       </div>
-       
-     </div>
-     <div class="footer__img gsap__footer">
-       <img src="/img/hustler.svg" alt="HUSTLER">
-     </div>
-     <div class="footer__downline gsap__footer">
-       <a href="/polityca">Політика конфіденційності</a>
-       
-       <div class="footer__remark gsap__footer">{{ .Site.Data.settings.footer_menu.remark }}</div>
+        </div>
+      </div>
 
-     </div>
-   </div>
- </footer>
+    </div>
+    <div class="footer__img gsap__footer">
+      <img src="/img/hustler.svg" alt="HUSTLER">
+    </div>
+    <div class="footer__downline gsap__footer">
 
+      {{ range .Site.Menus.footer }}
+      <a href="{{ .PageRef }}">{{ .Name }}</a>
+
+      {{ end }}
+
+
+      <div class="footer__remark gsap__footer">{{ .Site.Params.footer.remark }}</div>
+
+    </div>
+  </div>
+</footer>

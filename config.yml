@@ -1,0 +1,69 @@
+baseurl: "/"
+defaultContentLanguage: "ua"
+enableRobotsTXT: true
+
+params:
+  footer:
+    telegram: https://t.me/hustleragency
+    mail: hustlerdigitalagency@gmail.com
+    insta: https://instagram.com/hustler.digital
+    phone: "+380960896265"
+    remark: HUSTLERDIGITAL (C) 2023
+
+languages:
+  ua:
+    weight: 1
+    languageName: "UA"
+    title: "Ефективний маркетинг для вашого бізнесу Hustler Digital"
+    menus:
+      main:
+        - name: ПРО НАС
+          pageRef: /#video
+        - name: ПОСЛУГИ
+          pageRef: /#services
+        - name: КЕЙСИ
+          pageRef: /#sliderKeys
+        - name: БЛОГЕРИ
+          pageRef: /#blogers
+        - name: КОНТАКТИ
+          pageRef: /#form
+        - name: НОВИНИ
+          pageRef: /#news
+      footer:
+        - name: Політика конфіденційності
+          pageRef: /privacy-policy
+
+  en:
+    weight: 2
+    languageName: "ENG"
+    title: "Effective Marketing for Your Business Hustler Digital"
+    menus:
+      main:
+        - name: About Us
+          pageRef: /#video
+        - name: ПОСЛУГИ
+          pageRef: /#services
+        - name: КЕЙСИ
+          pageRef: /#sliderKeys
+        - name: БЛОГЕРИ
+          pageRef: /#blogers
+        - name: КОНТАКТИ
+          pageRef: /#form
+        - name: НОВИНИ
+          pageRef: /#news
+      footer:
+        - name: Privacy Policy
+          pageRef: /privacy-policy
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds: ["RSS"]
+
+permalinks:
+  blog: ":title/"
+
+imaging:
+  # See https://github.com/disintegration/imaging
+  resampleFilter: "Lanczos"
+  quality: 100
