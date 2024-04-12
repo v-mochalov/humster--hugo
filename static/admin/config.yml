@@ -7,24 +7,24 @@ collections:
     label: Settings
     editor:
       preview: false
-        label: Footer menu
-        name: footer_menu
-        fields:
-          - label: Telegram
-            name: telegram
-            widget: string
-          - label: E-mail
-            name: mail
-            widget: string
-          - label: Instagram
-            name: insta
-            widget: string
-          - label: Phone
-            name: phone
-            widget: string
-          - label: Remark
-            name: remark
-            widget: string
+    label: Footer menu
+    name: footer_menu
+    fields:
+      - label: Telegram
+        name: telegram
+        widget: string
+      - label: E-mail
+        name: mail
+        widget: string
+      - label: Instagram
+        name: insta
+        widget: string
+      - label: Phone
+        name: phone
+        widget: string
+      - label: Remark
+        name: remark
+        widget: string
   - name: blog
     i18n: true
     label: Blog
