@@ -15,6 +15,8 @@ languages:
     weight: 1
     languageName: "UA"
     title: "Ефективний маркетинг для вашого бізнесу Hustler Digital"
+    params:
+      read_more: Детальніше
     menus:
       main:
         - name: ПРО НАС
@@ -37,23 +39,25 @@ languages:
     weight: 2
     languageName: "ENG"
     title: "Effective Marketing for Your Business Hustler Digital"
+    params:
+      read_more: Read more
     menus:
       main:
         - name: About Us
-          pageRef: /#video
+          pageRef: /en/#video
         - name: ПОСЛУГИ
-          pageRef: /#services
+          pageRef: /en/#services
         - name: КЕЙСИ
-          pageRef: /#sliderKeys
+          pageRef: /en/#sliderKeys
         - name: БЛОГЕРИ
-          pageRef: /#blogers
+          pageRef: /en/#blogers
         - name: КОНТАКТИ
-          pageRef: /#form
+          pageRef: /en/#form
         - name: НОВИНИ
-          pageRef: /#news
+          pageRef: /en/#news
       footer:
         - name: Privacy Policy
-          pageRef: /privacy-policy
+          pageRef: /en/privacy-policy
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
@@ -61,7 +65,7 @@ languages:
 disableKinds: ["RSS"]
 
 permalinks:
-  blog: ":title/"
+  blog: ":slug/"
 
 imaging:
   # See https://github.com/disintegration/imaging

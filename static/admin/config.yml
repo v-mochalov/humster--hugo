@@ -7,28 +7,6 @@ collections:
     label: Settings
     editor:
       preview: false
-    files:
-      - file: data/settings/main_menu
-        i18n: true
-        editor:
-          preview: false
-        label: Header Menu
-        name: main_menu
-        fields:
-          - label: Nav items
-            name: nav_items
-            widget: list
-            i18n: true
-            fields:
-              - label: Label
-                name: label
-                widget: string
-                i18n: true
-              - label: Path
-                name: path
-                widget: string
-                i18n: true
-      - file: data/settings/footer_menu
         label: Footer menu
         name: footer_menu
         fields:
@@ -96,6 +74,10 @@ collections:
     editor:
       preview: false
     fields: 
+      - label: Slug
+        name: slug
+        widget: string
+        i18n: duplicate
       - label: Title
         name: title
         widget: string

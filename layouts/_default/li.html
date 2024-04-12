@@ -6,12 +6,12 @@
 		<div class="blog__top">
 			<div class="blog__upline">{{ .Title }}</div>
 			<div class="blog__data">{{ .Params.downline }}</div>
-		</div>		
+		</div>
 		<div class="blog__downline">
 			<!-- <div class="blog__data"> {{ .PublishDate.Format "January 2, 2006" }} </div> -->
-			
+
 			<div class="blog__read">
-				<a href="{{ .Permalink }}">{{ .Params.details }}</a>
+				<a href="{{ .Permalink }}">{{ .Site.Params.read_more}}</a>
 			</div>
 		</div>
 	</div>

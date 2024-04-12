@@ -1,15 +1,15 @@
 ---
+slug: digital-marketing-budgeting
 title: Digital marketing budgeting
 seoTitle: Digital marketing budgeting
 seoDescription: Digital marketing budgeting
 seoThumbnail: img/news1.jpg
 downline: The first step is to define goals and objectives.
 thumbnail: img/news1.jpg
-details: Details
-
-
 ---
+
 ## Digital Marketing
+
 Within the budget is an important task for many companies. Regardless of the business size, everyone wants their product or service to be visible to potential customers, but it's not always possible to allocate huge amounts of money for advertising.
 
 However, there's no need to despair because there are plenty of ways to attract potential customers' attention without breaking the budget. If you're just starting out in marketing, **digital marketing budgeting** will be an important task for you.
