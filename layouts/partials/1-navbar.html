@@ -72,11 +72,11 @@
             <div class="header__img">
               <img src="/img/vertical.webp" alt="arrow">
             </div>
-
-            {{ range .Site.Menus.main }}
-            <li><a href="{{ .PageRef }}">{{ .Name }}</a></li>
-            {{ end }}
-
+            <ul>
+              {{ range .Site.Menus.main }}
+              <li><a href="{{ .PageRef }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
             <ul>
               <li><a href="/{{ .Site.Language.Lang }}/">{{ .Site.Data.settings.main_menu.nav_items.home }}</a></li>
               <li><a href="/{{ .Site.Language.Lang }}/about">{{ .Site.Data.settings.main_menu.nav_items.about }}</a>
