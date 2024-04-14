@@ -59,6 +59,10 @@ collections:
         name: title
         widget: string
         i18n: true
+      - label: Slug
+        name: slug
+        widget: string
+        i18n: true
       - label: seo Title
         name: seoTitle
         widget: string
