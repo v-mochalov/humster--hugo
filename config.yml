@@ -21,16 +21,22 @@ languages:
       main:
         - name: ПРО НАС
           pageRef: /#video
+          weight: 1
         - name: ПОСЛУГИ
           pageRef: /#services
+          weight: 2
         - name: КЕЙСИ
           pageRef: /#sliderKeys
+          weight: 3
         - name: БЛОГЕРИ
           pageRef: /#blogers
+          weight: 4
         - name: КОНТАКТИ
           pageRef: /#form
+          weight: 5
         - name: НОВИНИ
           pageRef: /#news
+          weight: 6
       footer:
         - name: Політика конфіденційності
           pageRef: /privacy-policy
@@ -45,7 +51,7 @@ languages:
       main:
         - name: About Us
           pageRef: /en/#video
-        - name: ПОСЛУГИ
+        - name: Serv
           pageRef: /en/#services
         - name: КЕЙСИ
           pageRef: /en/#sliderKeys
