@@ -527,9 +527,6 @@ h3 {
     transition: 0.3s linear;
     color: #000000; }
 
-.burger-menu_link:first-child {
-  border-top: 1px solid #fff; }
-
 .burger-menu_link:hover {
   filter: brightness(0.9); }
 
