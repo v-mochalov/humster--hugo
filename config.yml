@@ -1,5 +1,5 @@
 baseurl: "/"
-defaultContentLanguage: "ua"
+defaultContentLanguage: "uk"
 enableRobotsTXT: true
 
 params:
@@ -11,9 +11,9 @@ params:
     remark: HUSTLERDIGITAL (C) 2023
 
 languages:
-  ua:
+  uk:
     weight: 1
-    languageName: "UA"
+    languageName: "UK"
     title: "Ефективний маркетинг для вашого бізнесу Hustler Digital"
     params:
       read_more: Детальніше
@@ -49,17 +49,17 @@ languages:
       read_more: Read more
     menus:
       main:
-        - name: About Us
+        - name: ABOUT US
           pageRef: /en/#video
-        - name: Serv
+        - name: SERVICES
           pageRef: /en/#services
-        - name: КЕЙСИ
+        - name: CASES
           pageRef: /en/#sliderKeys
-        - name: БЛОГЕРИ
+        - name: BLOGGERS
           pageRef: /en/#blogers
-        - name: КОНТАКТИ
+        - name: CONTACTS
           pageRef: /en/#form
-        - name: НОВИНИ
+        - name: NEWS
           pageRef: /en/#news
       footer:
         - name: Privacy Policy
