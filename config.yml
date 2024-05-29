@@ -4,7 +4,7 @@ enableRobotsTXT: true
 
 params:
   footer:
-    telegram: https://t.me/hustleragency
+    telegram: https://t.me/hustlerdigitall_bot
     mail: hustlerdigitalagency@gmail.com
     insta: https://instagram.com/hustler.digital
     phone: "+380960896265"
@@ -14,7 +14,7 @@ languages:
   uk:
     weight: 1
     languageName: "UK"
-    title: "Ефективний маркетинг для вашого бізнесу Hustler Digital"
+    title: "Ефективний маркетинг бізнесу Hustler"
     params:
       read_more: Детальніше
     menus:
@@ -44,7 +44,7 @@ languages:
   en:
     weight: 2
     languageName: "ENG"
-    title: "Effective Marketing for Your Business Hustler Digital"
+    title: "Efficient Marketing Strategies Hustler Digital "
     params:
       read_more: Read more
     menus:
