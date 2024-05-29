@@ -13,9 +13,9 @@
 
 <section class="more">
     <div class="container">
-        <h2 class="more__title">
-            <div class="h2-title h2-title--small">MORE RELEASES</div>
-        </h2>
+        <!-- <h2 class="more__title h2-title h2-title--small">
+            MORE RELEASES
+        </h2> -->
         <div class="blog__wrapper">
             {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
             {{ .Render "li"}}
