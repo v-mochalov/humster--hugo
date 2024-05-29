@@ -1,6 +1,7 @@
 baseurl: "/"
 defaultContentLanguage: "uk"
 enableRobotsTXT: true
+disable404: false
 
 params:
   footer:
