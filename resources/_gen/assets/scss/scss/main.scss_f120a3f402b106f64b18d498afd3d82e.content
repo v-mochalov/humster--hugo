@@ -2209,7 +2209,9 @@ h3 {
         width: 100%;
         height: 140px;
         margin-top: 16px; } }
-    .form__right input {
+    .form__right textarea {
+      resize: none;
+      overflow-y: scroll;
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 500;
@@ -2219,6 +2221,8 @@ h3 {
       color: #ffffff;
       height: 100%;
       width: 100%;
+      padding-top: 17px;
+      padding-right: 30px;
       background: transparent;
       opacity: 0.5;
       border: 2px solid #ffffff;
@@ -2226,12 +2230,12 @@ h3 {
       padding-left: 30px;
       position: relative; }
       @media only screen and (max-width: 767px) {
-        .form__right input {
+        .form__right textarea {
           font-weight: 500;
           font-size: 16px;
           line-height: 22px;
           padding-left: 16px; } }
-      .form__right input::placeholder {
+      .form__right textarea::placeholder {
         position: absolute;
         left: 30px;
         top: 16px;
@@ -2245,12 +2249,18 @@ h3 {
         color: #ffffff;
         opacity: 0.6;
         transition: 0.2s linear; }
-      .form__right input:active, .form__right input:focus {
+      .form__right textarea:active, .form__right textarea:focus {
         opacity: 1;
         border: 4px solid #ffffff;
         transition: 0.3s linear; }
-        .form__right input:active::placeholder, .form__right input:focus::placeholder {
+        .form__right textarea:active::placeholder, .form__right textarea:focus::placeholder {
           opacity: 1; }
+      .form__right textarea::-webkit-scrollbar {
+        background: #000;
+        border-radius: 5px;
+        width: 7px; }
+      .form__right textarea::-webkit-scrollbar-thumb {
+        background: #000; }
   .form__button {
     margin-top: 50px;
     align-self: center; }
