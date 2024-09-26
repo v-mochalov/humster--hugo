@@ -5,7 +5,7 @@ seoTitle: Бюджетування цифрового маркетингу
 seoDescription: Бюджетування цифрового маркетингу
 seoThumbnail: img/bloger5.webp
 downline: Перший крок - визначити цілі та завдання.
-thumbnail: img/news1.jpg
+thumbnail: img/bloger5.webp
 ---
 
 ## Цифровий маркетинг
