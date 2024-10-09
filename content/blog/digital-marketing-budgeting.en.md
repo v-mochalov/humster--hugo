@@ -1,6 +1,6 @@
 ---
-slug: digital-marketing-budgeting
 title: Digital marketing budgeting
+slug: digital-marketing-budgeting
 seoTitle: Digital marketing budgeting
 seoDescription: Digital marketing budgeting
 seoThumbnail: img/news1.jpg

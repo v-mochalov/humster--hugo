@@ -1,6 +1,6 @@
 ---
-slug: digital-marketing-budgeting
 title: Бюджетування цифрового маркетингу
+slug: digital-marketing-budgeting
 seoTitle: Бюджетування цифрового маркетингу
 seoDescription: Бюджетування цифрового маркетингу
 seoThumbnail: img/news1.jpg
