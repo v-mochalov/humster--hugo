@@ -55,6 +55,14 @@ document.getElementById('tg').addEventListener('submit', function(e) {
 		parse_mode: 'html',
 		text: message
 	})
+
+	.then(function(response) {
+        // Если отправка сообщения успешна, перенаправляем на страницу подтверждения
+        window.location.href = 'thankyou';  // Замените 'success.html' на нужный вам URL
+    })
+    .catch(function(error) {
+        console.error('Ошибка при отправке сообщения:', error);
+    });
 });
 
 // SLIDER
