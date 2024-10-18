@@ -4,7 +4,7 @@ slug: Що це та чому працює?
 seoTitle: "Що таке influence marketing "
 seoDescription: "Що таке influence marketing "
 seoThumbnail: img/412x206px.png
-downline: Детальніше про самий діючий інструмент маркетинг 2024 року
+downline: Говоримо про самий діючий інструмент маркетингу 2024 року
 thumbnail: img/1300x500px.png
 ---
 ## Що таке influence marketing?
