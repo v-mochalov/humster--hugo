@@ -1,8 +1,8 @@
 ---
 title: Що таке influence marketing ?
-slug: Що таке influence marketing ?
+slug: "Що таке influence marketing "
 seoTitle: Що таке influence marketing ?
-seoDescription: Що таке influence marketing ?
+seoDescription: ""
 seoThumbnail: img/412x206px.png
 downline: Перший крок - визначити цілі та завдання.
 thumbnail: img/1300x500px.png
