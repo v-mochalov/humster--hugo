@@ -232,9 +232,6 @@ h3 {
       color: #00FF00;
       transition: 0.3s linear; }
 
-.gsap__done {
-  opacity: 0; }
-
 .gsap__video {
   opacity: 0;
   transform: translate(-300px, 0);
