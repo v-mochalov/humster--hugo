@@ -1,8 +1,8 @@
 ---
 title: Маркетинг впливу
 slug: Що це та чому працює?
-seoTitle: =
-seoDescription: №
+seoTitle: Influence marketing
+seoDescription: маркетинг впливу
 seoThumbnail: img/412x206px.png
 downline: Говоримо про самий діючий інструмент маркетингу 2024 року
 thumbnail: img/1300x500px.png
