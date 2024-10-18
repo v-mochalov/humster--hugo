@@ -3,9 +3,9 @@ title: Digital marketing budgeting
 slug: digital-marketing-budgeting
 seoTitle: Digital marketing budgeting
 seoDescription: Digital marketing budgeting
-seoThumbnail: img/412x206px.png
+seoThumbnail: img/1300x500px.png
 downline: The first step is to define goals and objectives.
-thumbnail: img/412x206px.png
+thumbnail: img/1300x500px.png
 ---
 
 ## Digital Marketing
