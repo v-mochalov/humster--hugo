@@ -4,7 +4,8 @@ slug: Що це та чому працює?
 seoTitle: "Що таке influence marketing "
 seoDescription: "Що таке influence marketing "
 seoThumbnail: img/412x206px.png
-downline: Перший крок - визначити цілі та завдання.
+downline: Детальніше про те, чому маркетинг впливу діючий інструмент у 2024 році
+  для усіх вертикалей.
 thumbnail: img/1300x500px.png
 ---
 ## Що таке influence marketing?
