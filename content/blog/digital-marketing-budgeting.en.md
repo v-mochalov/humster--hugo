@@ -5,7 +5,7 @@ seoTitle: Digital marketing budgeting
 seoDescription: Digital marketing budgeting
 seoThumbnail: img/1300x500px.png
 downline: The first step is to define goals and objectives.
-thumbnail: img/1300x500px.png
+thumbnail: img/412x206px.png
 ---
 
 ## Digital Marketing
