@@ -7,25 +7,38 @@ seoThumbnail: img/412x206px.png
 downline: The first step is to define goals and objectives.
 thumbnail: img/1300x500px.png
 ---
+## **What is influencer marketing?**
 
-## Digital Marketing
+\
+Influence marketing, or influencer marketing, isn’t just a new marketing trend, it’s a powerful tool that has gained immense popularity in recent years. A few years ago, brands mostly relied on traditional methods for advertising: TV, radio, or billboards. But with the rise of social media, everything changed. People began trusting real personalities they interact with online more than classic advertising commercials. And that’s where the idea of influencer marketing was born.
 
-Within the budget is an important task for many companies. Regardless of the business size, everyone wants their product or service to be visible to potential customers, but it's not always possible to allocate huge amounts of money for advertising.
+Simply put, influencer marketing is when a brand or company collaborates with popular individuals (influencers) to promote their products or services. Influencers are those who have their own audience on social media that trusts their opinion. These can be bloggers, vloggers, Instagram or TikTok stars, or experts in a particular field. The key point is that when such a person recommends a product, it feels like advice from a friend, not an ad.
 
-However, there's no need to despair because there are plenty of ways to attract potential customers' attention without breaking the budget. If you're just starting out in marketing, **digital marketing budgeting** will be an important task for you.
 
-The first step is to define the goals and objectives you want to achieve. If you want to increase sales, you can do so through social media. In Instagram and Facebook, you can place ads targeted only at your intended audience. This will help reduce advertising costs and increase its effectiveness.
 
-If you have a small budget, you can start with small investments in contextual advertising on search engines such as Yandex or Google. Determine keywords that could potentially bring customers to your website. However, don't forget that choosing keywords is crucial, and you should pay enough attention to it.
+**Why are influencers so effective?**
 
-If you're unsure which keywords to choose, you can use tools like Google Keyword Planner or Yandex.Metrica. They will help you select keywords that are most suitable for your business and will be most effective.
 
-Another way to attract customers is through email marketing. This is a cheap and effective way to promote your business. You can send newsletters with news about your company, as well as with discounts and promotions. However, don't overuse this method, or you might end up being marked as spam, which could harm your business.
 
-**Advertising within the budget means** not only using social media and contextual advertising but also using organic traffic. Optimize your website for search engines and create content that will be interesting to your target audience. This will increase your website's traffic, thereby increasing the likelihood of sales.
+Firstly, they already have a loyal audience that is ready to listen to their recommendations. Secondly, interacting with an audience through social media feels more natural than traditional ads. And of course, it’s a great way for a brand to reach a specific audience, for example, young moms or gamers.
 
-If you have the opportunity, you can try using viral marketing. Create content that evokes emotions and interest in people and spreads virally through social media. It could be videos, photos, memes, etc. The main thing is that it's interesting and evokes emotions.
 
-Also, don't forget that the best advertising is word of mouth from satisfied customers. Emphasize the quality of your products or services, and you'll definitely have satisfied customers who will recommend you to their friends and acquaintances.
 
-Thus, digital marketing within the budget is an opportunity to attract customers and promote your business without huge expenses. Define your goals and objectives, choose the most effective tools, pay attention to the quality of your product, and don't forget to analyze the results of your campaigns. This will help you succeed in digital **marketing on a small budget**.
+**Influencer marketing formats**
+
+
+
+Influencer marketing comes in many forms. Here are a few examples:\
+\
+Direct promotion: The influencer posts on their profile recommending a product. This could be an Instagram post or a YouTube video where they talk about the product's benefits.
+
+Sponsored content: Brands partner with influencers to create unique content featuring the product. This could be a fun photo set or a video review.
+
+Product reviews: The influencer receives a product to test and then gives their honest opinion to their followers.
+
+\
+**Why does it work?**
+
+Firstly, authenticity. People are tired of overly aggressive ads. Influencers speak to their audience like friends, and when they recommend something to buy, it feels natural. Secondly, targeted audience. Brands can choose influencers whose followers are the perfect fit for their product. For instance, a beauty brand would look for beauty bloggers to reach people interested in makeup.
+
+In general, influencer marketing is a modern way to engage with an audience, helping brands organically fit into people’s daily lives.
