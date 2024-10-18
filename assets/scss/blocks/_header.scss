@@ -54,6 +54,15 @@
   position: absolute;
   top: 47px;
   right: 172px;
+  .language-switcher{
+    @include md-d{
+      a{
+        color: #000000;
+        opacity: 0.8;
+      }
+    }
+    
+  }
   &--mobile{
     display: none;
     position: relative;

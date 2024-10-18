@@ -11,10 +11,9 @@
             <img class="gsap__done" src="/img/done2.png" alt="done">
           </div>
         </div>
-        <div class="thanks__title">заявку прийнято</div>
-        <div class="thanks__remark">Наші менеджери зв’яжуться з вами
-          найближчим часом</div>
-        <a href="/">НА ГОЛОВНУ</a>
+        <div class="thanks__title">{{ .Params.subtitle | safeHTML }}</div>
+        <div class="thanks__remark">{{ .Params.menegers | safeHTML }}</div>
+        <a href="/{{ .Site.Language.Lang }}/">{{ .Params.button | safeHTML }}</a>
       </div>
     </div>
   </section>

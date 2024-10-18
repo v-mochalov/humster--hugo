@@ -4,7 +4,7 @@
     background-color: #000;
     width: 100vw;
     height: 100vh;
-
+    overflow-y: hidden;
     .container {
         display: flex;
         justify-content: center;
@@ -68,13 +68,14 @@
             &:first-child{
                 top: 0;
                 left: 5px;
-    width: 52px;
-    height: 50px;
+                width: 52px;
+                height: 50px;
             }
             &:last-child{
                 top: 0;
-            left: 1px;
-            
+                left: 1px;  
+                opacity: 0; 
+                animation: accepted 4s forwards;         
             }
             
         }
@@ -91,7 +92,7 @@
     }
 
     &__remark {
-
+        width: 100%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -104,6 +105,8 @@
         align-self: center;
         margin-top: 12px;
         opacity: 0.6;
+        display: flex;
+        align-items: center;
     }
     a{
         display: block;
@@ -126,5 +129,12 @@
             color: $accent;
         }
     }
-    
+    @keyframes accepted {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 }
