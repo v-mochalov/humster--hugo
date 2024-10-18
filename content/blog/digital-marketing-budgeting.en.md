@@ -1,6 +1,6 @@
 ---
-title: Digital marketing budgeting
-slug: digital-marketing-budgeting
+title: What is influence marketing?
+slug: What is influence marketing
 seoTitle: What is influence marketing?
 seoDescription: What is influence marketing?
 seoThumbnail: img/412x206px.png
