@@ -1,11 +1,11 @@
 ---
 title: Digital marketing budgeting
 slug: digital-marketing-budgeting
-seoTitle: Digital marketing budgeting
-seoDescription: Digital marketing budgeting
+seoTitle: What is influence marketing?
+seoDescription: What is influence marketing?
 seoThumbnail: img/412x206px.png
 downline: The first step is to define goals and objectives.
-thumbnail: img/group-1.png
+thumbnail: img/1300x500px.png
 ---
 
 ## Digital Marketing
