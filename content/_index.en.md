@@ -170,6 +170,7 @@ blogers:
     - text: opinionleaders
     - text: lifestyle
     - text: instagram
+  button: SHOW MORE
   card:
     - url: https://instagram.com/hatebloggers?igshid=YmMyMTA2M2Y=
       image: /img/bloger1.webp

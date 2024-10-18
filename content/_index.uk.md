@@ -185,6 +185,7 @@ blogers:
     - text: лідеридумок
     - text: лайфстайл
     - text: інстаграм
+  button: ПОКАЗАТИ ЩЕ
   card:
     - url: https://instagram.com/hatebloggers?igshid=YmMyMTA2M2Y=
       image: /img/bloger1.webp
