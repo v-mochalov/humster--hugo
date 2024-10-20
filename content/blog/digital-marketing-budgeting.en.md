@@ -3,9 +3,9 @@ title: What is influence marketing?
 slug: What is influence marketing
 seoTitle: What is influence marketing?
 seoDescription: What is influence marketing?
-seoThumbnail: img/1300x700px.jpg
+seoThumbnail: img/1_1300x700px.jpg
 downline: The first step is to define goals and objectives.
-thumbnail: img/1300x700px.jpg
+thumbnail: img/1_1300x700px.jpg
 ---
 ## **What is influencer marketing?**
 
