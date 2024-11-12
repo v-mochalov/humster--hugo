@@ -2,14 +2,18 @@
     background-image: url("/img/footbg.png");
     background-size: contain;
     background-color: #000;
+    position: absolute;
     width: 100vw;
     height: 100vh;
     overflow-y: hidden;
+    overflow-x: hidden;
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     &__wrapper {

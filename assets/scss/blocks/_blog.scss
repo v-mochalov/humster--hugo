@@ -111,7 +111,7 @@
         flex-direction: column;
         justify-content: space-between;
         margin-left: 26px;
-        height: 216px;
+        height: 180px;
     }
     &__upline {
         font-size: 14px;
@@ -185,11 +185,15 @@
     .blog__box{
         border: 1px solid #fff;
     }    
+    background-image: url(/img/footbg.png);
+    background-size: contain;
     a{
         color: #fff;
     }
 }
 .releases{
+    background-image: url(/img/footbg.png);
+    background-size: contain;
     color: #fff;
     .blog__box{
         border: 1px solid #fff;
@@ -235,10 +239,10 @@
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
-        margin-top: 48px;
+        margin-top: 40px;
     }
     h3{
-        margin-top: 48px;
+        margin-top: 32px;
         color: #FFF;
         font-size: 16px;
         font-style: normal;
